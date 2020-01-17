@@ -1,0 +1,712 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-12-25T15:56:56.035397Z</date>
+  <millis>1577289416035</millis>
+  <nanos>397000</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainCrawler</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>CONFIGURATION:</message>
+</record>
+<record>
+  <date>2019-12-25T15:56:56.062401Z</date>
+  <millis>1577289416062</millis>
+  <nanos>401000</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainCrawler</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Language: C</message>
+</record>
+<record>
+  <date>2019-12-25T15:56:56.064013Z</date>
+  <millis>1577289416064</millis>
+  <nanos>13000</nanos>
+  <sequence>2</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainCrawler</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Last pushed date: 2018-01-01</message>
+</record>
+<record>
+  <date>2019-12-25T15:56:56.065537Z</date>
+  <millis>1577289416065</millis>
+  <nanos>537000</nanos>
+  <sequence>3</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainCrawler</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Stars decrease amount: 1</message>
+</record>
+<record>
+  <date>2019-12-25T15:56:56.067039Z</date>
+  <millis>1577289416067</millis>
+  <nanos>39000</nanos>
+  <sequence>4</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainCrawler</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Build system: CMAKE</message>
+</record>
+<record>
+  <date>2019-12-25T15:56:56.068446Z</date>
+  <millis>1577289416068</millis>
+  <nanos>446000</nanos>
+  <sequence>5</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainCrawler</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Filepath: ../shared</message>
+</record>
+<record>
+  <date>2019-12-25T15:56:57.246543Z</date>
+  <millis>1577289417246</millis>
+  <nanos>543000</nanos>
+  <sequence>6</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.GitHubCrawler</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>Current remaining request limit is: 4999</message>
+</record>
+<record>
+  <date>2019-12-25T15:56:57.273763Z</date>
+  <millis>1577289417273</millis>
+  <nanos>763000</nanos>
+  <sequence>7</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.GitHubCrawler</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>Requests are throttled to 1.388611111111111 requests per second.</message>
+</record>
+<record>
+  <date>2019-12-25T15:56:57.276843Z</date>
+  <millis>1577289417276</millis>
+  <nanos>843000</nanos>
+  <sequence>8</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.GitHubCrawler</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>Search requests are throttled to 0.5 requests per second.</message>
+</record>
+<record>
+  <date>2019-12-25T16:56:58.230540Z</date>
+  <millis>1577293018230</millis>
+  <nanos>540000</nanos>
+  <sequence>9</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.GitHubCrawler</class>
+  <method>filterRepositories</method>
+  <thread>1</thread>
+  <message>----------------------------------------------------------</message>
+</record>
+<record>
+  <date>2019-12-25T16:56:58.231889Z</date>
+  <millis>1577293018231</millis>
+  <nanos>889000</nanos>
+  <sequence>10</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.GitHubCrawler</class>
+  <method>filterRepositories</method>
+  <thread>1</thread>
+  <message>Remaining requests before reset: 3</message>
+</record>
+<record>
+  <date>2019-12-25T16:56:58.233268Z</date>
+  <millis>1577293018233</millis>
+  <nanos>268000</nanos>
+  <sequence>11</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.GitHubCrawler</class>
+  <method>filterRepositories</method>
+  <thread>1</thread>
+  <message>Requests reset at: 25-12-2019 17:56:58</message>
+</record>
+<record>
+  <date>2019-12-25T17:56:57.365416Z</date>
+  <millis>1577296617365</millis>
+  <nanos>416000</nanos>
+  <sequence>12</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.GitHubCrawler</class>
+  <method>filterRepositories</method>
+  <thread>1</thread>
+  <message>----------------------------------------------------------</message>
+</record>
+<record>
+  <date>2019-12-25T17:56:57.366188Z</date>
+  <millis>1577296617366</millis>
+  <nanos>188000</nanos>
+  <sequence>13</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.GitHubCrawler</class>
+  <method>filterRepositories</method>
+  <thread>1</thread>
+  <message>Remaining requests before reset: 5</message>
+</record>
+<record>
+  <date>2019-12-25T17:56:57.367071Z</date>
+  <millis>1577296617367</millis>
+  <nanos>71000</nanos>
+  <sequence>14</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.GitHubCrawler</class>
+  <method>filterRepositories</method>
+  <thread>1</thread>
+  <message>Requests reset at: 25-12-2019 18:56:57</message>
+</record>
+<record>
+  <date>2019-12-25T18:56:57.646470Z</date>
+  <millis>1577300217646</millis>
+  <nanos>470000</nanos>
+  <sequence>15</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.GitHubCrawler</class>
+  <method>filterRepositories</method>
+  <thread>1</thread>
+  <message>----------------------------------------------------------</message>
+</record>
+<record>
+  <date>2019-12-25T18:56:57.647102Z</date>
+  <millis>1577300217647</millis>
+  <nanos>102000</nanos>
+  <sequence>16</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.GitHubCrawler</class>
+  <method>filterRepositories</method>
+  <thread>1</thread>
+  <message>Remaining requests before reset: 6</message>
+</record>
+<record>
+  <date>2019-12-25T18:56:57.647945Z</date>
+  <millis>1577300217647</millis>
+  <nanos>945000</nanos>
+  <sequence>17</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.GitHubCrawler</class>
+  <method>filterRepositories</method>
+  <thread>1</thread>
+  <message>Requests reset at: 25-12-2019 19:56:57</message>
+</record>
+<record>
+  <date>2019-12-25T19:56:56.662737Z</date>
+  <millis>1577303816662</millis>
+  <nanos>737000</nanos>
+  <sequence>18</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.GitHubCrawler</class>
+  <method>filterRepositories</method>
+  <thread>1</thread>
+  <message>----------------------------------------------------------</message>
+</record>
+<record>
+  <date>2019-12-25T19:56:56.663373Z</date>
+  <millis>1577303816663</millis>
+  <nanos>373000</nanos>
+  <sequence>19</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.GitHubCrawler</class>
+  <method>filterRepositories</method>
+  <thread>1</thread>
+  <message>Remaining requests before reset: 7</message>
+</record>
+<record>
+  <date>2019-12-25T19:56:56.664089Z</date>
+  <millis>1577303816664</millis>
+  <nanos>89000</nanos>
+  <sequence>20</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.GitHubCrawler</class>
+  <method>filterRepositories</method>
+  <thread>1</thread>
+  <message>Requests reset at: 25-12-2019 20:56:56</message>
+</record>
+<record>
+  <date>2019-12-25T20:56:57.234740Z</date>
+  <millis>1577307417234</millis>
+  <nanos>740000</nanos>
+  <sequence>21</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.GitHubCrawler</class>
+  <method>filterRepositories</method>
+  <thread>1</thread>
+  <message>----------------------------------------------------------</message>
+</record>
+<record>
+  <date>2019-12-25T20:56:57.235442Z</date>
+  <millis>1577307417235</millis>
+  <nanos>442000</nanos>
+  <sequence>22</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.GitHubCrawler</class>
+  <method>filterRepositories</method>
+  <thread>1</thread>
+  <message>Remaining requests before reset: 4</message>
+</record>
+<record>
+  <date>2019-12-25T20:56:57.236455Z</date>
+  <millis>1577307417236</millis>
+  <nanos>455000</nanos>
+  <sequence>23</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.GitHubCrawler</class>
+  <method>filterRepositories</method>
+  <thread>1</thread>
+  <message>Requests reset at: 25-12-2019 21:56:57</message>
+</record>
+<record>
+  <date>2019-12-25T21:56:58.025785Z</date>
+  <millis>1577311018025</millis>
+  <nanos>785000</nanos>
+  <sequence>24</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.GitHubCrawler</class>
+  <method>filterRepositories</method>
+  <thread>1</thread>
+  <message>----------------------------------------------------------</message>
+</record>
+<record>
+  <date>2019-12-25T21:56:58.026563Z</date>
+  <millis>1577311018026</millis>
+  <nanos>563000</nanos>
+  <sequence>25</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.GitHubCrawler</class>
+  <method>filterRepositories</method>
+  <thread>1</thread>
+  <message>Remaining requests before reset: 3</message>
+</record>
+<record>
+  <date>2019-12-25T21:56:58.027517Z</date>
+  <millis>1577311018027</millis>
+  <nanos>517000</nanos>
+  <sequence>26</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.GitHubCrawler</class>
+  <method>filterRepositories</method>
+  <thread>1</thread>
+  <message>Requests reset at: 25-12-2019 22:56:58</message>
+</record>
+<record>
+  <date>2019-12-25T22:56:57.350779Z</date>
+  <millis>1577314617350</millis>
+  <nanos>779000</nanos>
+  <sequence>27</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.GitHubCrawler</class>
+  <method>filterRepositories</method>
+  <thread>1</thread>
+  <message>----------------------------------------------------------</message>
+</record>
+<record>
+  <date>2019-12-25T22:56:57.351252Z</date>
+  <millis>1577314617351</millis>
+  <nanos>252000</nanos>
+  <sequence>28</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.GitHubCrawler</class>
+  <method>filterRepositories</method>
+  <thread>1</thread>
+  <message>Remaining requests before reset: 6</message>
+</record>
+<record>
+  <date>2019-12-25T22:56:57.351897Z</date>
+  <millis>1577314617351</millis>
+  <nanos>897000</nanos>
+  <sequence>29</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.GitHubCrawler</class>
+  <method>filterRepositories</method>
+  <thread>1</thread>
+  <message>Requests reset at: 25-12-2019 23:56:57</message>
+</record>
+<record>
+  <date>2019-12-25T23:56:57.391230Z</date>
+  <millis>1577318217391</millis>
+  <nanos>230000</nanos>
+  <sequence>30</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.GitHubCrawler</class>
+  <method>filterRepositories</method>
+  <thread>1</thread>
+  <message>----------------------------------------------------------</message>
+</record>
+<record>
+  <date>2019-12-25T23:56:57.391874Z</date>
+  <millis>1577318217391</millis>
+  <nanos>874000</nanos>
+  <sequence>31</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.GitHubCrawler</class>
+  <method>filterRepositories</method>
+  <thread>1</thread>
+  <message>Remaining requests before reset: 7</message>
+</record>
+<record>
+  <date>2019-12-25T23:56:57.392781Z</date>
+  <millis>1577318217392</millis>
+  <nanos>781000</nanos>
+  <sequence>32</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.GitHubCrawler</class>
+  <method>filterRepositories</method>
+  <thread>1</thread>
+  <message>Requests reset at: 26-12-2019 00:56:57</message>
+</record>
+<record>
+  <date>2019-12-26T00:56:57.748026Z</date>
+  <millis>1577321817748</millis>
+  <nanos>26000</nanos>
+  <sequence>33</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.GitHubCrawler</class>
+  <method>filterRepositories</method>
+  <thread>1</thread>
+  <message>----------------------------------------------------------</message>
+</record>
+<record>
+  <date>2019-12-26T00:56:57.748655Z</date>
+  <millis>1577321817748</millis>
+  <nanos>655000</nanos>
+  <sequence>34</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.GitHubCrawler</class>
+  <method>filterRepositories</method>
+  <thread>1</thread>
+  <message>Remaining requests before reset: 7</message>
+</record>
+<record>
+  <date>2019-12-26T00:56:57.749541Z</date>
+  <millis>1577321817749</millis>
+  <nanos>541000</nanos>
+  <sequence>35</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.GitHubCrawler</class>
+  <method>filterRepositories</method>
+  <thread>1</thread>
+  <message>Requests reset at: 26-12-2019 01:56:57</message>
+</record>
+<record>
+  <date>2019-12-26T01:56:57.356890Z</date>
+  <millis>1577325417356</millis>
+  <nanos>890000</nanos>
+  <sequence>36</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.GitHubCrawler</class>
+  <method>filterRepositories</method>
+  <thread>1</thread>
+  <message>----------------------------------------------------------</message>
+</record>
+<record>
+  <date>2019-12-26T01:56:57.357552Z</date>
+  <millis>1577325417357</millis>
+  <nanos>552000</nanos>
+  <sequence>37</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.GitHubCrawler</class>
+  <method>filterRepositories</method>
+  <thread>1</thread>
+  <message>Remaining requests before reset: 5</message>
+</record>
+<record>
+  <date>2019-12-26T01:56:57.358385Z</date>
+  <millis>1577325417358</millis>
+  <nanos>385000</nanos>
+  <sequence>38</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.GitHubCrawler</class>
+  <method>filterRepositories</method>
+  <thread>1</thread>
+  <message>Requests reset at: 26-12-2019 02:56:57</message>
+</record>
+<record>
+  <date>2019-12-26T02:56:56.831836Z</date>
+  <millis>1577329016831</millis>
+  <nanos>836000</nanos>
+  <sequence>39</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.GitHubCrawler</class>
+  <method>filterRepositories</method>
+  <thread>1</thread>
+  <message>----------------------------------------------------------</message>
+</record>
+<record>
+  <date>2019-12-26T02:56:56.832418Z</date>
+  <millis>1577329016832</millis>
+  <nanos>418000</nanos>
+  <sequence>40</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.GitHubCrawler</class>
+  <method>filterRepositories</method>
+  <thread>1</thread>
+  <message>Remaining requests before reset: 5</message>
+</record>
+<record>
+  <date>2019-12-26T02:56:56.833215Z</date>
+  <millis>1577329016833</millis>
+  <nanos>215000</nanos>
+  <sequence>41</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.GitHubCrawler</class>
+  <method>filterRepositories</method>
+  <thread>1</thread>
+  <message>Requests reset at: 26-12-2019 03:56:56</message>
+</record>
+<record>
+  <date>2019-12-26T03:13:07.983713Z</date>
+  <millis>1577329987983</millis>
+  <nanos>713000</nanos>
+  <sequence>42</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.GitHubCrawler</class>
+  <method>buildSearchQuery</method>
+  <thread>1</thread>
+  <message>Overall amount of checked repositories: 28000</message>
+</record>
+<record>
+  <date>2019-12-26T03:13:07.984474Z</date>
+  <millis>1577329987984</millis>
+  <nanos>474000</nanos>
+  <sequence>43</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.GitHubCrawler</class>
+  <method>buildSearchQuery</method>
+  <thread>1</thread>
+  <message>Overall amount of matching repositories found: 15</message>
+</record>
+<record>
+  <date>2019-12-26T03:13:07.985068Z</date>
+  <millis>1577329987985</millis>
+  <nanos>68000</nanos>
+  <sequence>44</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.GitHubCrawler</class>
+  <method>buildSearchQuery</method>
+  <thread>1</thread>
+  <message>Amount of search requests sent: 280</message>
+</record>
+<record>
+  <date>2019-12-26T03:13:07.985666Z</date>
+  <millis>1577329987985</millis>
+  <nanos>666000</nanos>
+  <sequence>45</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.GitHubCrawler</class>
+  <method>buildSearchQuery</method>
+  <thread>1</thread>
+  <message>Amount of repository requests sent: 28000</message>
+</record>
+<record>
+  <date>2019-12-26T03:13:07.986307Z</date>
+  <millis>1577329987986</millis>
+  <nanos>307000</nanos>
+  <sequence>46</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.GitHubCrawler</class>
+  <method>buildSearchQuery</method>
+  <thread>1</thread>
+  <message>Amount of content requests sent: 28000</message>
+</record>
+<record>
+  <date>2019-12-26T03:13:07.986899Z</date>
+  <millis>1577329987986</millis>
+  <nanos>899000</nanos>
+  <sequence>47</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.GitHubCrawler</class>
+  <method>buildSearchQuery</method>
+  <thread>1</thread>
+  <message>Amount of commit requests sent: 15</message>
+</record>
+<record>
+  <date>2019-12-26T03:13:07.987500Z</date>
+  <millis>1577329987987</millis>
+  <nanos>500000</nanos>
+  <sequence>48</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.GitHubCrawler</class>
+  <method>buildSearchQuery</method>
+  <thread>1</thread>
+  <message>Remaining requests before termination: 3651</message>
+</record>
+<record>
+  <date>2019-12-26T03:13:07.988894Z</date>
+  <millis>1577329987988</millis>
+  <nanos>894000</nanos>
+  <sequence>49</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.GitHubCrawler</class>
+  <method>buildSearchQuery</method>
+  <thread>1</thread>
+  <message>Maximum time spent waiting before any request in seconds: 0.560962</message>
+</record>
+<record>
+  <date>2019-12-26T03:13:07.989558Z</date>
+  <millis>1577329987989</millis>
+  <nanos>558000</nanos>
+  <sequence>50</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.GitHubCrawler</class>
+  <method>buildSearchQuery</method>
+  <thread>1</thread>
+  <message>Overall time spent waiting before any request in seconds: 25556.525664000066</message>
+</record>
+<record>
+  <date>2019-12-26T03:13:07.990239Z</date>
+  <millis>1577329987990</millis>
+  <nanos>239000</nanos>
+  <sequence>51</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.GitHubCrawler</class>
+  <method>buildSearchQuery</method>
+  <thread>1</thread>
+  <message>Overall time spent waiting before any request in minutes: 425.9420944000011</message>
+</record>
+<record>
+  <date>2019-12-26T03:13:07.990962Z</date>
+  <millis>1577329987990</millis>
+  <nanos>962000</nanos>
+  <sequence>52</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.GitHubCrawler</class>
+  <method>buildSearchQuery</method>
+  <thread>1</thread>
+  <message>Overall time spent waiting before any request in hours: 7.099034906666685</message>
+</record>
+<record>
+  <date>2019-12-26T03:13:07.991756Z</date>
+  <millis>1577329987991</millis>
+  <nanos>756000</nanos>
+  <sequence>53</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.GitHubCrawler</class>
+  <method>buildSearchQuery</method>
+  <thread>1</thread>
+  <message>Crawler started at: 25-12-2019 16:56:56</message>
+</record>
+<record>
+  <date>2019-12-26T03:13:07.992460Z</date>
+  <millis>1577329987992</millis>
+  <nanos>460000</nanos>
+  <sequence>54</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.GitHubCrawler</class>
+  <method>buildSearchQuery</method>
+  <thread>1</thread>
+  <message>Crawler terminated at: 26-12-2019 04:13:07</message>
+</record>
+<record>
+  <date>2019-12-26T03:13:08.001435Z</date>
+  <millis>1577329988001</millis>
+  <nanos>435000</nanos>
+  <sequence>55</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.GitHubCrawler</class>
+  <method>buildSearchQuery</method>
+  <thread>1</thread>
+  <message>Overall execution time in seconds: 40571</message>
+</record>
+<record>
+  <date>2019-12-26T03:13:08.002341Z</date>
+  <millis>1577329988002</millis>
+  <nanos>341000</nanos>
+  <sequence>56</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.GitHubCrawler</class>
+  <method>buildSearchQuery</method>
+  <thread>1</thread>
+  <message>Overall execution time in minutes: 676.1833333333333</message>
+</record>
+<record>
+  <date>2019-12-26T03:13:08.003077Z</date>
+  <millis>1577329988003</millis>
+  <nanos>77000</nanos>
+  <sequence>57</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.GitHubCrawler</class>
+  <method>buildSearchQuery</method>
+  <thread>1</thread>
+  <message>Overall execution time in hours: 11.269722222222223</message>
+</record>
+<record>
+  <date>2019-12-26T03:13:08.003395Z</date>
+  <millis>1577329988003</millis>
+  <nanos>395000</nanos>
+  <sequence>58</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.GitHubCrawler</class>
+  <method>buildSearchQuery</method>
+  <thread>1</thread>
+  <message>Crawling finished. Shutting down</message>
+</record>
+</log>

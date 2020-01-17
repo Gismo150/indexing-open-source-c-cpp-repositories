@@ -1,0 +1,796 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-12-29T10:33:27.087211Z</date>
+  <millis>1577615607087</millis>
+  <nanos>211000</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainCollectionCreator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>CONFIGURATION:</message>
+</record>
+<record>
+  <date>2019-12-29T10:33:27.115741Z</date>
+  <millis>1577615607115</millis>
+  <nanos>741000</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainCollectionCreator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Filepath: ../shared</message>
+</record>
+<record>
+  <date>2019-12-29T10:33:27.117307Z</date>
+  <millis>1577615607117</millis>
+  <nanos>307000</nanos>
+  <sequence>2</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainCollectionCreator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Host path: ~/GitRepo/indexing-open-source-c-cpp-repositories/Docker-conan/shared</message>
+</record>
+<record>
+  <date>2019-12-29T10:33:27.118991Z</date>
+  <millis>1577615607118</millis>
+  <nanos>991000</nanos>
+  <sequence>3</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainCollectionCreator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Container path: /shared</message>
+</record>
+<record>
+  <date>2019-12-29T10:33:27.135598Z</date>
+  <millis>1577615607135</millis>
+  <nanos>598000</nanos>
+  <sequence>4</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainCollectionCreator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>repositories.json is output to: ../shared/repositories.json</message>
+</record>
+<record>
+  <date>2019-12-29T10:33:27.137283Z</date>
+  <millis>1577615607137</millis>
+  <nanos>283000</nanos>
+  <sequence>5</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainCollectionCreator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>results.json is read from: ../shared/results.json</message>
+</record>
+<record>
+  <date>2019-12-29T10:33:27.436957Z</date>
+  <millis>1577615607436</millis>
+  <nanos>957000</nanos>
+  <sequence>6</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.CollectionCreator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>-----------------------------------</message>
+</record>
+<record>
+  <date>2019-12-29T10:33:27.483880Z</date>
+  <millis>1577615607483</millis>
+  <nanos>880000</nanos>
+  <sequence>7</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.CollectionCreator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Running collection creation at index: 0for repository with id/owner/name: 4434428/kokke/tiny-AES-c</message>
+</record>
+<record>
+  <date>2019-12-29T10:33:36.818687Z</date>
+  <millis>1577615616818</millis>
+  <nanos>687000</nanos>
+  <sequence>8</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.CollectionCreator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Overall execution time in seconds: 9</message>
+</record>
+<record>
+  <date>2019-12-29T10:33:36.825143Z</date>
+  <millis>1577615616825</millis>
+  <nanos>143000</nanos>
+  <sequence>9</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.CollectionCreator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Overall execution time in minutes: 0.15</message>
+</record>
+<record>
+  <date>2019-12-29T10:33:36.831416Z</date>
+  <millis>1577615616831</millis>
+  <nanos>416000</nanos>
+  <sequence>10</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.CollectionCreator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>-----------------------------------</message>
+</record>
+<record>
+  <date>2019-12-29T10:33:36.832376Z</date>
+  <millis>1577615616832</millis>
+  <nanos>376000</nanos>
+  <sequence>11</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.CollectionCreator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Running collection creation at index: 1for repository with id/owner/name: 34807561/nanopb/nanopb</message>
+</record>
+<record>
+  <date>2019-12-29T10:33:46.333719Z</date>
+  <millis>1577615626333</millis>
+  <nanos>719000</nanos>
+  <sequence>12</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.CollectionCreator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Overall execution time in seconds: 9</message>
+</record>
+<record>
+  <date>2019-12-29T10:33:46.334564Z</date>
+  <millis>1577615626334</millis>
+  <nanos>564000</nanos>
+  <sequence>13</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.CollectionCreator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Overall execution time in minutes: 0.15</message>
+</record>
+<record>
+  <date>2019-12-29T10:33:46.338508Z</date>
+  <millis>1577615626338</millis>
+  <nanos>508000</nanos>
+  <sequence>14</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.CollectionCreator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>-----------------------------------</message>
+</record>
+<record>
+  <date>2019-12-29T10:33:46.339724Z</date>
+  <millis>1577615626339</millis>
+  <nanos>724000</nanos>
+  <sequence>15</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.CollectionCreator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Running collection creation at index: 2for repository with id/owner/name: 13352949/civetweb/civetweb</message>
+</record>
+<record>
+  <date>2019-12-29T10:35:47.847062Z</date>
+  <millis>1577615747847</millis>
+  <nanos>62000</nanos>
+  <sequence>16</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.CollectionCreator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Overall execution time in seconds: 121</message>
+</record>
+<record>
+  <date>2019-12-29T10:35:47.847849Z</date>
+  <millis>1577615747847</millis>
+  <nanos>849000</nanos>
+  <sequence>17</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.CollectionCreator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Overall execution time in minutes: 2.0166666666666666</message>
+</record>
+<record>
+  <date>2019-12-29T10:35:47.853225Z</date>
+  <millis>1577615747853</millis>
+  <nanos>225000</nanos>
+  <sequence>18</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.CollectionCreator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>-----------------------------------</message>
+</record>
+<record>
+  <date>2019-12-29T10:35:47.853972Z</date>
+  <millis>1577615747853</millis>
+  <nanos>972000</nanos>
+  <sequence>19</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.CollectionCreator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Running collection creation at index: 3for repository with id/owner/name: 48130039/eclipse/paho.mqtt.c</message>
+</record>
+<record>
+  <date>2019-12-29T10:36:37.376724Z</date>
+  <millis>1577615797376</millis>
+  <nanos>724000</nanos>
+  <sequence>20</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.CollectionCreator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Overall execution time in seconds: 49</message>
+</record>
+<record>
+  <date>2019-12-29T10:36:37.377571Z</date>
+  <millis>1577615797377</millis>
+  <nanos>571000</nanos>
+  <sequence>21</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.CollectionCreator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Overall execution time in minutes: 0.8166666666666667</message>
+</record>
+<record>
+  <date>2019-12-29T10:36:37.382021Z</date>
+  <millis>1577615797382</millis>
+  <nanos>21000</nanos>
+  <sequence>22</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.CollectionCreator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>-----------------------------------</message>
+</record>
+<record>
+  <date>2019-12-29T10:36:37.382610Z</date>
+  <millis>1577615797382</millis>
+  <nanos>610000</nanos>
+  <sequence>23</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.CollectionCreator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Running collection creation at index: 4for repository with id/owner/name: 1990838/Blosc/c-blosc</message>
+</record>
+<record>
+  <date>2019-12-29T10:44:30.859473Z</date>
+  <millis>1577616270859</millis>
+  <nanos>473000</nanos>
+  <sequence>24</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.CollectionCreator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Overall execution time in seconds: 473</message>
+</record>
+<record>
+  <date>2019-12-29T10:44:30.860120Z</date>
+  <millis>1577616270860</millis>
+  <nanos>120000</nanos>
+  <sequence>25</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.CollectionCreator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Overall execution time in minutes: 7.883333333333334</message>
+</record>
+<record>
+  <date>2019-12-29T10:44:30.867976Z</date>
+  <millis>1577616270867</millis>
+  <nanos>976000</nanos>
+  <sequence>26</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.CollectionCreator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>-----------------------------------</message>
+</record>
+<record>
+  <date>2019-12-29T10:44:30.868521Z</date>
+  <millis>1577616270868</millis>
+  <nanos>521000</nanos>
+  <sequence>27</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.CollectionCreator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Running collection creation at index: 5for repository with id/owner/name: 127691413/altairwei/WizNotePlus</message>
+</record>
+<record>
+  <date>2019-12-29T10:44:50.929406Z</date>
+  <millis>1577616290929</millis>
+  <nanos>406000</nanos>
+  <sequence>28</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.CollectionCreator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Overall execution time in seconds: 20</message>
+</record>
+<record>
+  <date>2019-12-29T10:44:50.929970Z</date>
+  <millis>1577616290929</millis>
+  <nanos>970000</nanos>
+  <sequence>29</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.CollectionCreator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Overall execution time in minutes: 0.3333333333333333</message>
+</record>
+<record>
+  <date>2019-12-29T10:44:50.933484Z</date>
+  <millis>1577616290933</millis>
+  <nanos>484000</nanos>
+  <sequence>30</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.CollectionCreator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>-----------------------------------</message>
+</record>
+<record>
+  <date>2019-12-29T10:44:50.933923Z</date>
+  <millis>1577616290933</millis>
+  <nanos>923000</nanos>
+  <sequence>31</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.CollectionCreator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Running collection creation at index: 6for repository with id/owner/name: 16264207/argtable/argtable3</message>
+</record>
+<record>
+  <date>2019-12-29T10:46:07.289940Z</date>
+  <millis>1577616367289</millis>
+  <nanos>940000</nanos>
+  <sequence>32</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.CollectionCreator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Overall execution time in seconds: 76</message>
+</record>
+<record>
+  <date>2019-12-29T10:46:07.290522Z</date>
+  <millis>1577616367290</millis>
+  <nanos>522000</nanos>
+  <sequence>33</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.CollectionCreator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Overall execution time in minutes: 1.2666666666666666</message>
+</record>
+<record>
+  <date>2019-12-29T10:46:07.294852Z</date>
+  <millis>1577616367294</millis>
+  <nanos>852000</nanos>
+  <sequence>34</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.CollectionCreator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>-----------------------------------</message>
+</record>
+<record>
+  <date>2019-12-29T10:46:07.295355Z</date>
+  <millis>1577616367295</millis>
+  <nanos>355000</nanos>
+  <sequence>35</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.CollectionCreator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Running collection creation at index: 7for repository with id/owner/name: 116033455/eclipse-cyclonedds/cyclonedds</message>
+</record>
+<record>
+  <date>2019-12-29T10:46:31.471142Z</date>
+  <millis>1577616391471</millis>
+  <nanos>142000</nanos>
+  <sequence>36</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.CollectionCreator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Overall execution time in seconds: 24</message>
+</record>
+<record>
+  <date>2019-12-29T10:46:31.471712Z</date>
+  <millis>1577616391471</millis>
+  <nanos>712000</nanos>
+  <sequence>37</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.CollectionCreator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Overall execution time in minutes: 0.4</message>
+</record>
+<record>
+  <date>2019-12-29T10:46:31.475184Z</date>
+  <millis>1577616391475</millis>
+  <nanos>184000</nanos>
+  <sequence>38</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.CollectionCreator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>-----------------------------------</message>
+</record>
+<record>
+  <date>2019-12-29T10:46:31.475539Z</date>
+  <millis>1577616391475</millis>
+  <nanos>539000</nanos>
+  <sequence>39</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.CollectionCreator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Running collection creation at index: 8for repository with id/owner/name: 35875178/riebl/vanetza</message>
+</record>
+<record>
+  <date>2019-12-29T10:46:39.312811Z</date>
+  <millis>1577616399312</millis>
+  <nanos>811000</nanos>
+  <sequence>40</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.CollectionCreator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Overall execution time in seconds: 7</message>
+</record>
+<record>
+  <date>2019-12-29T10:46:39.313262Z</date>
+  <millis>1577616399313</millis>
+  <nanos>262000</nanos>
+  <sequence>41</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.CollectionCreator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Overall execution time in minutes: 0.11666666666666667</message>
+</record>
+<record>
+  <date>2019-12-29T10:46:39.316744Z</date>
+  <millis>1577616399316</millis>
+  <nanos>744000</nanos>
+  <sequence>42</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.CollectionCreator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>-----------------------------------</message>
+</record>
+<record>
+  <date>2019-12-29T10:46:39.317116Z</date>
+  <millis>1577616399317</millis>
+  <nanos>116000</nanos>
+  <sequence>43</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.CollectionCreator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Running collection creation at index: 9for repository with id/owner/name: 128069735/topfreegames/libpitaya</message>
+</record>
+<record>
+  <date>2019-12-29T10:48:50.690848Z</date>
+  <millis>1577616530690</millis>
+  <nanos>848000</nanos>
+  <sequence>44</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.CollectionCreator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Overall execution time in seconds: 131</message>
+</record>
+<record>
+  <date>2019-12-29T10:48:50.691332Z</date>
+  <millis>1577616530691</millis>
+  <nanos>332000</nanos>
+  <sequence>45</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.CollectionCreator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Overall execution time in minutes: 2.183333333333333</message>
+</record>
+<record>
+  <date>2019-12-29T10:48:50.695533Z</date>
+  <millis>1577616530695</millis>
+  <nanos>533000</nanos>
+  <sequence>46</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.CollectionCreator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>-----------------------------------</message>
+</record>
+<record>
+  <date>2019-12-29T10:48:50.695982Z</date>
+  <millis>1577616530695</millis>
+  <nanos>982000</nanos>
+  <sequence>47</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.CollectionCreator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Running collection creation at index: 10for repository with id/owner/name: 40561722/jrl-umi3218/eigen-qld</message>
+</record>
+<record>
+  <date>2019-12-29T10:48:59.716896Z</date>
+  <millis>1577616539716</millis>
+  <nanos>896000</nanos>
+  <sequence>48</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.CollectionCreator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Overall execution time in seconds: 9</message>
+</record>
+<record>
+  <date>2019-12-29T10:48:59.717307Z</date>
+  <millis>1577616539717</millis>
+  <nanos>307000</nanos>
+  <sequence>49</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.CollectionCreator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Overall execution time in minutes: 0.15</message>
+</record>
+<record>
+  <date>2019-12-29T10:48:59.720874Z</date>
+  <millis>1577616539720</millis>
+  <nanos>874000</nanos>
+  <sequence>50</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.CollectionCreator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>-----------------------------------</message>
+</record>
+<record>
+  <date>2019-12-29T10:48:59.721233Z</date>
+  <millis>1577616539721</millis>
+  <nanos>233000</nanos>
+  <sequence>51</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.CollectionCreator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Running collection creation at index: 11for repository with id/owner/name: 44736572/conan-community/conan-zlib</message>
+</record>
+<record>
+  <date>2019-12-29T10:49:07.753648Z</date>
+  <millis>1577616547753</millis>
+  <nanos>648000</nanos>
+  <sequence>52</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.CollectionCreator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Overall execution time in seconds: 8</message>
+</record>
+<record>
+  <date>2019-12-29T10:49:07.754262Z</date>
+  <millis>1577616547754</millis>
+  <nanos>262000</nanos>
+  <sequence>53</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.CollectionCreator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Overall execution time in minutes: 0.13333333333333333</message>
+</record>
+<record>
+  <date>2019-12-29T10:49:07.757595Z</date>
+  <millis>1577616547757</millis>
+  <nanos>595000</nanos>
+  <sequence>54</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.CollectionCreator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>-----------------------------------</message>
+</record>
+<record>
+  <date>2019-12-29T10:49:07.758005Z</date>
+  <millis>1577616547758</millis>
+  <nanos>5000</nanos>
+  <sequence>55</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.CollectionCreator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Running collection creation at index: 12for repository with id/owner/name: 47253039/nexusformat/HDF5-External-Filter-Plugins</message>
+</record>
+<record>
+  <date>2019-12-29T10:49:14.955706Z</date>
+  <millis>1577616554955</millis>
+  <nanos>706000</nanos>
+  <sequence>56</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.CollectionCreator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Overall execution time in seconds: 7</message>
+</record>
+<record>
+  <date>2019-12-29T10:49:14.956209Z</date>
+  <millis>1577616554956</millis>
+  <nanos>209000</nanos>
+  <sequence>57</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.CollectionCreator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Overall execution time in minutes: 0.11666666666666667</message>
+</record>
+<record>
+  <date>2019-12-29T10:49:14.960001Z</date>
+  <millis>1577616554960</millis>
+  <nanos>1000</nanos>
+  <sequence>58</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.CollectionCreator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>-----------------------------------</message>
+</record>
+<record>
+  <date>2019-12-29T10:49:14.960438Z</date>
+  <millis>1577616554960</millis>
+  <nanos>438000</nanos>
+  <sequence>59</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.CollectionCreator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Running collection creation at index: 13for repository with id/owner/name: 154707090/panda-lang/pandavm</message>
+</record>
+<record>
+  <date>2019-12-29T10:49:27.297645Z</date>
+  <millis>1577616567297</millis>
+  <nanos>645000</nanos>
+  <sequence>60</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.CollectionCreator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Overall execution time in seconds: 12</message>
+</record>
+<record>
+  <date>2019-12-29T10:49:27.298104Z</date>
+  <millis>1577616567298</millis>
+  <nanos>104000</nanos>
+  <sequence>61</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.CollectionCreator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Overall execution time in minutes: 0.2</message>
+</record>
+<record>
+  <date>2019-12-29T10:49:27.301152Z</date>
+  <millis>1577616567301</millis>
+  <nanos>152000</nanos>
+  <sequence>62</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.CollectionCreator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>-----------------------------------</message>
+</record>
+<record>
+  <date>2019-12-29T10:49:27.301491Z</date>
+  <millis>1577616567301</millis>
+  <nanos>491000</nanos>
+  <sequence>63</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.CollectionCreator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Running collection creation at index: 14for repository with id/owner/name: 48165074/conan-community/conan-bzip2</message>
+</record>
+<record>
+  <date>2019-12-29T10:49:33.405514Z</date>
+  <millis>1577616573405</millis>
+  <nanos>514000</nanos>
+  <sequence>64</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.CollectionCreator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Overall execution time in seconds: 6</message>
+</record>
+<record>
+  <date>2019-12-29T10:49:33.405964Z</date>
+  <millis>1577616573405</millis>
+  <nanos>964000</nanos>
+  <sequence>65</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.CollectionCreator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Overall execution time in minutes: 0.1</message>
+</record>
+</log>

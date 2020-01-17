@@ -1,0 +1,5530 @@
+<?xml version="1.0" encoding="US-ASCII" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-12-28T10:38:32.952317Z</date>
+  <millis>1577529512952</millis>
+  <nanos>317000</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>-----------------------------------</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:32.967391Z</date>
+  <millis>1577529512967</millis>
+  <nanos>391000</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>-----------------------------------</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:32.968402Z</date>
+  <millis>1577529512968</millis>
+  <nanos>402000</nanos>
+  <sequence>2</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>CONFIGURATION:</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:32.982591Z</date>
+  <millis>1577529512982</millis>
+  <nanos>591000</nanos>
+  <sequence>3</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Filepath: ../shared</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:32.984144Z</date>
+  <millis>1577529512984</millis>
+  <nanos>144000</nanos>
+  <sequence>4</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Host path: ~/GitRepo/indexing-open-source-c-cpp-repositories/Docker-conan/shared</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:32.985667Z</date>
+  <millis>1577529512985</millis>
+  <nanos>667000</nanos>
+  <sequence>5</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Container path: /shared</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:33.002343Z</date>
+  <millis>1577529513002</millis>
+  <nanos>343000</nanos>
+  <sequence>6</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>repositories.json is read to: ../shared/repositories.json</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:33.003921Z</date>
+  <millis>1577529513003</millis>
+  <nanos>921000</nanos>
+  <sequence>7</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>results.json is output to: ../shared/results.json</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:33.005303Z</date>
+  <millis>1577529513005</millis>
+  <nanos>303000</nanos>
+  <sequence>8</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Using analysis tool : StatisticsAnalysis</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:33.271210Z</date>
+  <millis>1577529513271</millis>
+  <nanos>210000</nanos>
+  <sequence>9</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>-----------------------------------</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:33.324141Z</date>
+  <millis>1577529513324</millis>
+  <nanos>141000</nanos>
+  <sequence>10</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Running container pipeline at index: 0 for repository with id/owner/name: 4434428/kokke/tiny-AES-c</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:34.728977Z</date>
+  <millis>1577529514728</millis>
+  <nanos>977000</nanos>
+  <sequence>11</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>FINISHED: CLONING</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:34.745672Z</date>
+  <millis>1577529514745</millis>
+  <nanos>672000</nanos>
+  <sequence>12</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>Cloning took 1 seconds - Repository size: 158</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:34.809559Z</date>
+  <millis>1577529514809</millis>
+  <nanos>559000</nanos>
+  <sequence>13</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>FINISHED: CLONING SUBMODULES</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:34.820072Z</date>
+  <millis>1577529514820</millis>
+  <nanos>72000</nanos>
+  <sequence>14</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>Cloning submodules took 0 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:34.868495Z</date>
+  <millis>1577529514868</millis>
+  <nanos>495000</nanos>
+  <sequence>15</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>FINISHED: RESET WORKING TREE</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:34.870968Z</date>
+  <millis>1577529514870</millis>
+  <nanos>968000</nanos>
+  <sequence>16</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>Resetting working tree took 0 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:36.014250Z</date>
+  <millis>1577529516014</millis>
+  <nanos>250000</nanos>
+  <sequence>17</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>FINISHED: CONAN INSTALL</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:36.016311Z</date>
+  <millis>1577529516016</millis>
+  <nanos>311000</nanos>
+  <sequence>18</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>Installing dependencies took 1 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:36.029583Z</date>
+  <millis>1577529516029</millis>
+  <nanos>583000</nanos>
+  <sequence>19</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>FINISHED: FOLDER PREPARATION</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:36.031148Z</date>
+  <millis>1577529516031</millis>
+  <nanos>148000</nanos>
+  <sequence>20</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>Build folder preparation took 0 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:37.726365Z</date>
+  <millis>1577529517726</millis>
+  <nanos>365000</nanos>
+  <sequence>21</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>FINISHED: CMAKE PREPARATION</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:37.727961Z</date>
+  <millis>1577529517727</millis>
+  <nanos>961000</nanos>
+  <sequence>22</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>CMake preparation took 1 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:38.685857Z</date>
+  <millis>1577529518685</millis>
+  <nanos>857000</nanos>
+  <sequence>23</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>FINISHED: CMAKE BUILD</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:38.686998Z</date>
+  <millis>1577529518686</millis>
+  <nanos>998000</nanos>
+  <sequence>24</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>CMake build took 0 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:38.722972Z</date>
+  <millis>1577529518722</millis>
+  <nanos>972000</nanos>
+  <sequence>25</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>gatherBuildTargetsAndExtractLLVMIR</method>
+  <thread>1</thread>
+  <message>Build summary: 0 Executables 0 Libraries 1 Archives</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:38.953962Z</date>
+  <millis>1577529518953</millis>
+  <nanos>962000</nanos>
+  <sequence>26</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>gatherBuildTargetsAndExtractLLVMIR</method>
+  <thread>1</thread>
+  <message>Extracting and disassambling all build targets into LLVM IR took 0 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:39.017517Z</date>
+  <millis>1577529519017</millis>
+  <nanos>517000</nanos>
+  <sequence>27</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>runAnalysis</method>
+  <thread>1</thread>
+  <message>Analysis of all LLVM IR files took 0 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:39.063708Z</date>
+  <millis>1577529519063</millis>
+  <nanos>708000</nanos>
+  <sequence>28</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>ContainerCoordinator started at: 28-12-2019 10:38:33</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:39.065855Z</date>
+  <millis>1577529519065</millis>
+  <nanos>855000</nanos>
+  <sequence>29</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>ContainerCoordinator terminated at: 28-12-2019 10:38:39</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:39.068975Z</date>
+  <millis>1577529519068</millis>
+  <nanos>975000</nanos>
+  <sequence>30</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Overall execution time in seconds: 5</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:39.076851Z</date>
+  <millis>1577529519076</millis>
+  <nanos>851000</nanos>
+  <sequence>31</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Overall execution time in minutes: 0.08333333333333333</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:39.078127Z</date>
+  <millis>1577529519078</millis>
+  <nanos>127000</nanos>
+  <sequence>32</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Overall execution time in hours: 0.001388888888888889</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:39.078563Z</date>
+  <millis>1577529519078</millis>
+  <nanos>563000</nanos>
+  <sequence>33</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>ContainerCoordinator finished. Shutting down</message>
+</record>
+</log>
+<?xml version="1.0" encoding="US-ASCII" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-12-28T10:38:42.012635Z</date>
+  <millis>1577529522012</millis>
+  <nanos>635000</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>-----------------------------------</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:42.028086Z</date>
+  <millis>1577529522028</millis>
+  <nanos>86000</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>-----------------------------------</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:42.029105Z</date>
+  <millis>1577529522029</millis>
+  <nanos>105000</nanos>
+  <sequence>2</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>CONFIGURATION:</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:42.043344Z</date>
+  <millis>1577529522043</millis>
+  <nanos>344000</nanos>
+  <sequence>3</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Filepath: ../shared</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:42.044962Z</date>
+  <millis>1577529522044</millis>
+  <nanos>962000</nanos>
+  <sequence>4</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Host path: ~/GitRepo/indexing-open-source-c-cpp-repositories/Docker-conan/shared</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:42.046554Z</date>
+  <millis>1577529522046</millis>
+  <nanos>554000</nanos>
+  <sequence>5</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Container path: /shared</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:42.063428Z</date>
+  <millis>1577529522063</millis>
+  <nanos>428000</nanos>
+  <sequence>6</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>repositories.json is read to: ../shared/repositories.json</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:42.065145Z</date>
+  <millis>1577529522065</millis>
+  <nanos>145000</nanos>
+  <sequence>7</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>results.json is output to: ../shared/results.json</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:42.066706Z</date>
+  <millis>1577529522066</millis>
+  <nanos>706000</nanos>
+  <sequence>8</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Using analysis tool : StatisticsAnalysis</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:42.333619Z</date>
+  <millis>1577529522333</millis>
+  <nanos>619000</nanos>
+  <sequence>9</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>-----------------------------------</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:42.382561Z</date>
+  <millis>1577529522382</millis>
+  <nanos>561000</nanos>
+  <sequence>10</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Running container pipeline at index: 1 for repository with id/owner/name: 34807561/nanopb/nanopb</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:44.371966Z</date>
+  <millis>1577529524371</millis>
+  <nanos>966000</nanos>
+  <sequence>11</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>FINISHED: CLONING</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:44.390071Z</date>
+  <millis>1577529524390</millis>
+  <nanos>71000</nanos>
+  <sequence>12</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>Cloning took 1 seconds - Repository size: 1771</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:44.439669Z</date>
+  <millis>1577529524439</millis>
+  <nanos>669000</nanos>
+  <sequence>13</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>FINISHED: CLONING SUBMODULES</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:44.449192Z</date>
+  <millis>1577529524449</millis>
+  <nanos>192000</nanos>
+  <sequence>14</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>Cloning submodules took 0 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:44.529121Z</date>
+  <millis>1577529524529</millis>
+  <nanos>121000</nanos>
+  <sequence>15</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>FINISHED: RESET WORKING TREE</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:44.530581Z</date>
+  <millis>1577529524530</millis>
+  <nanos>581000</nanos>
+  <sequence>16</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>Resetting working tree took 0 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:45.632965Z</date>
+  <millis>1577529525632</millis>
+  <nanos>965000</nanos>
+  <sequence>17</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>FINISHED: CONAN INSTALL</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:45.634866Z</date>
+  <millis>1577529525634</millis>
+  <nanos>866000</nanos>
+  <sequence>18</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>Installing dependencies took 1 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:45.646775Z</date>
+  <millis>1577529525646</millis>
+  <nanos>775000</nanos>
+  <sequence>19</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>FINISHED: FOLDER PREPARATION</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:45.648255Z</date>
+  <millis>1577529525648</millis>
+  <nanos>255000</nanos>
+  <sequence>20</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>Build folder preparation took 0 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:47.121902Z</date>
+  <millis>1577529527121</millis>
+  <nanos>902000</nanos>
+  <sequence>21</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>FINISHED: CMAKE PREPARATION</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:47.123558Z</date>
+  <millis>1577529527123</millis>
+  <nanos>558000</nanos>
+  <sequence>22</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>CMake preparation took 1 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:49.502923Z</date>
+  <millis>1577529529502</millis>
+  <nanos>923000</nanos>
+  <sequence>23</sequence>
+  <logger>global</logger>
+  <level>SEVERE</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>FAILED: CMAKE BUILD</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:49.505744Z</date>
+  <millis>1577529529505</millis>
+  <nanos>744000</nanos>
+  <sequence>24</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>CMake build took 2 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:49.582481Z</date>
+  <millis>1577529529582</millis>
+  <nanos>481000</nanos>
+  <sequence>25</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>ContainerCoordinator started at: 28-12-2019 10:38:42</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:49.583812Z</date>
+  <millis>1577529529583</millis>
+  <nanos>812000</nanos>
+  <sequence>26</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>ContainerCoordinator terminated at: 28-12-2019 10:38:49</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:49.587075Z</date>
+  <millis>1577529529587</millis>
+  <nanos>75000</nanos>
+  <sequence>27</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Overall execution time in seconds: 7</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:49.594288Z</date>
+  <millis>1577529529594</millis>
+  <nanos>288000</nanos>
+  <sequence>28</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Overall execution time in minutes: 0.11666666666666667</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:49.595703Z</date>
+  <millis>1577529529595</millis>
+  <nanos>703000</nanos>
+  <sequence>29</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Overall execution time in hours: 0.0019444444444444444</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:49.596143Z</date>
+  <millis>1577529529596</millis>
+  <nanos>143000</nanos>
+  <sequence>30</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>ContainerCoordinator finished. Shutting down</message>
+</record>
+</log>
+<?xml version="1.0" encoding="US-ASCII" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-12-28T10:38:51.520998Z</date>
+  <millis>1577529531520</millis>
+  <nanos>998000</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>-----------------------------------</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:51.538130Z</date>
+  <millis>1577529531538</millis>
+  <nanos>130000</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>-----------------------------------</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:51.539369Z</date>
+  <millis>1577529531539</millis>
+  <nanos>369000</nanos>
+  <sequence>2</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>CONFIGURATION:</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:51.557109Z</date>
+  <millis>1577529531557</millis>
+  <nanos>109000</nanos>
+  <sequence>3</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Filepath: ../shared</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:51.559015Z</date>
+  <millis>1577529531559</millis>
+  <nanos>15000</nanos>
+  <sequence>4</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Host path: ~/GitRepo/indexing-open-source-c-cpp-repositories/Docker-conan/shared</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:51.560832Z</date>
+  <millis>1577529531560</millis>
+  <nanos>832000</nanos>
+  <sequence>5</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Container path: /shared</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:51.577963Z</date>
+  <millis>1577529531577</millis>
+  <nanos>963000</nanos>
+  <sequence>6</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>repositories.json is read to: ../shared/repositories.json</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:51.579731Z</date>
+  <millis>1577529531579</millis>
+  <nanos>731000</nanos>
+  <sequence>7</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>results.json is output to: ../shared/results.json</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:51.581315Z</date>
+  <millis>1577529531581</millis>
+  <nanos>315000</nanos>
+  <sequence>8</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Using analysis tool : StatisticsAnalysis</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:51.851356Z</date>
+  <millis>1577529531851</millis>
+  <nanos>356000</nanos>
+  <sequence>9</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>-----------------------------------</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:51.901629Z</date>
+  <millis>1577529531901</millis>
+  <nanos>629000</nanos>
+  <sequence>10</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Running container pipeline at index: 2 for repository with id/owner/name: 13352949/civetweb/civetweb</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:59.021549Z</date>
+  <millis>1577529539021</millis>
+  <nanos>549000</nanos>
+  <sequence>11</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>FINISHED: CLONING</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:59.038883Z</date>
+  <millis>1577529539038</millis>
+  <nanos>883000</nanos>
+  <sequence>12</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>Cloning took 7 seconds - Repository size: 24989</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:59.105399Z</date>
+  <millis>1577529539105</millis>
+  <nanos>399000</nanos>
+  <sequence>13</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>FINISHED: CLONING SUBMODULES</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:59.116008Z</date>
+  <millis>1577529539116</millis>
+  <nanos>8000</nanos>
+  <sequence>14</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>Cloning submodules took 0 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:59.182027Z</date>
+  <millis>1577529539182</millis>
+  <nanos>27000</nanos>
+  <sequence>15</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>FINISHED: RESET WORKING TREE</message>
+</record>
+<record>
+  <date>2019-12-28T10:38:59.183565Z</date>
+  <millis>1577529539183</millis>
+  <nanos>565000</nanos>
+  <sequence>16</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>Resetting working tree took 0 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:39:11.833708Z</date>
+  <millis>1577529551833</millis>
+  <nanos>708000</nanos>
+  <sequence>17</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>FINISHED: CONAN INSTALL</message>
+</record>
+<record>
+  <date>2019-12-28T10:39:11.835476Z</date>
+  <millis>1577529551835</millis>
+  <nanos>476000</nanos>
+  <sequence>18</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>Installing dependencies took 12 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:39:11.849301Z</date>
+  <millis>1577529551849</millis>
+  <nanos>301000</nanos>
+  <sequence>19</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>FINISHED: FOLDER PREPARATION</message>
+</record>
+<record>
+  <date>2019-12-28T10:39:11.850875Z</date>
+  <millis>1577529551850</millis>
+  <nanos>875000</nanos>
+  <sequence>20</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>Build folder preparation took 0 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:39:26.149012Z</date>
+  <millis>1577529566149</millis>
+  <nanos>12000</nanos>
+  <sequence>21</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>FINISHED: CMAKE PREPARATION</message>
+</record>
+<record>
+  <date>2019-12-28T10:39:26.150586Z</date>
+  <millis>1577529566150</millis>
+  <nanos>586000</nanos>
+  <sequence>22</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>CMake preparation took 14 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:40:48.960121Z</date>
+  <millis>1577529648960</millis>
+  <nanos>121000</nanos>
+  <sequence>23</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>FINISHED: CMAKE BUILD</message>
+</record>
+<record>
+  <date>2019-12-28T10:40:48.961845Z</date>
+  <millis>1577529648961</millis>
+  <nanos>845000</nanos>
+  <sequence>24</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>CMake build took 82 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:40:49.002591Z</date>
+  <millis>1577529649002</millis>
+  <nanos>591000</nanos>
+  <sequence>25</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>gatherBuildTargetsAndExtractLLVMIR</method>
+  <thread>1</thread>
+  <message>Build summary: 2 Executables 0 Libraries 7 Archives</message>
+</record>
+<record>
+  <date>2019-12-28T10:40:52.165825Z</date>
+  <millis>1577529652165</millis>
+  <nanos>825000</nanos>
+  <sequence>26</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>gatherBuildTargetsAndExtractLLVMIR</method>
+  <thread>1</thread>
+  <message>Extracting and disassambling all build targets into LLVM IR took 3 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:40:53.719903Z</date>
+  <millis>1577529653719</millis>
+  <nanos>903000</nanos>
+  <sequence>27</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>runAnalysis</method>
+  <thread>1</thread>
+  <message>Analysis of all LLVM IR files took 1 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:40:53.938016Z</date>
+  <millis>1577529653938</millis>
+  <nanos>16000</nanos>
+  <sequence>28</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>ContainerCoordinator started at: 28-12-2019 10:38:51</message>
+</record>
+<record>
+  <date>2019-12-28T10:40:53.939019Z</date>
+  <millis>1577529653939</millis>
+  <nanos>19000</nanos>
+  <sequence>29</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>ContainerCoordinator terminated at: 28-12-2019 10:40:53</message>
+</record>
+<record>
+  <date>2019-12-28T10:40:53.941517Z</date>
+  <millis>1577529653941</millis>
+  <nanos>517000</nanos>
+  <sequence>30</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Overall execution time in seconds: 122</message>
+</record>
+<record>
+  <date>2019-12-28T10:40:53.947789Z</date>
+  <millis>1577529653947</millis>
+  <nanos>789000</nanos>
+  <sequence>31</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Overall execution time in minutes: 2.033333333333333</message>
+</record>
+<record>
+  <date>2019-12-28T10:40:53.948669Z</date>
+  <millis>1577529653948</millis>
+  <nanos>669000</nanos>
+  <sequence>32</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Overall execution time in hours: 0.03388888888888889</message>
+</record>
+<record>
+  <date>2019-12-28T10:40:53.949099Z</date>
+  <millis>1577529653949</millis>
+  <nanos>99000</nanos>
+  <sequence>33</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>ContainerCoordinator finished. Shutting down</message>
+</record>
+</log>
+<?xml version="1.0" encoding="US-ASCII" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-12-28T10:40:56.006755Z</date>
+  <millis>1577529656006</millis>
+  <nanos>755000</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>-----------------------------------</message>
+</record>
+<record>
+  <date>2019-12-28T10:40:56.024836Z</date>
+  <millis>1577529656024</millis>
+  <nanos>836000</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>-----------------------------------</message>
+</record>
+<record>
+  <date>2019-12-28T10:40:56.026118Z</date>
+  <millis>1577529656026</millis>
+  <nanos>118000</nanos>
+  <sequence>2</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>CONFIGURATION:</message>
+</record>
+<record>
+  <date>2019-12-28T10:40:56.043829Z</date>
+  <millis>1577529656043</millis>
+  <nanos>829000</nanos>
+  <sequence>3</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Filepath: ../shared</message>
+</record>
+<record>
+  <date>2019-12-28T10:40:56.045781Z</date>
+  <millis>1577529656045</millis>
+  <nanos>781000</nanos>
+  <sequence>4</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Host path: ~/GitRepo/indexing-open-source-c-cpp-repositories/Docker-conan/shared</message>
+</record>
+<record>
+  <date>2019-12-28T10:40:56.047755Z</date>
+  <millis>1577529656047</millis>
+  <nanos>755000</nanos>
+  <sequence>5</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Container path: /shared</message>
+</record>
+<record>
+  <date>2019-12-28T10:40:56.068252Z</date>
+  <millis>1577529656068</millis>
+  <nanos>252000</nanos>
+  <sequence>6</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>repositories.json is read to: ../shared/repositories.json</message>
+</record>
+<record>
+  <date>2019-12-28T10:40:56.070194Z</date>
+  <millis>1577529656070</millis>
+  <nanos>194000</nanos>
+  <sequence>7</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>results.json is output to: ../shared/results.json</message>
+</record>
+<record>
+  <date>2019-12-28T10:40:56.071938Z</date>
+  <millis>1577529656071</millis>
+  <nanos>938000</nanos>
+  <sequence>8</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Using analysis tool : StatisticsAnalysis</message>
+</record>
+<record>
+  <date>2019-12-28T10:40:56.375219Z</date>
+  <millis>1577529656375</millis>
+  <nanos>219000</nanos>
+  <sequence>9</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>-----------------------------------</message>
+</record>
+<record>
+  <date>2019-12-28T10:40:56.424124Z</date>
+  <millis>1577529656424</millis>
+  <nanos>124000</nanos>
+  <sequence>10</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Running container pipeline at index: 3 for repository with id/owner/name: 48130039/eclipse/paho.mqtt.c</message>
+</record>
+<record>
+  <date>2019-12-28T10:40:58.589181Z</date>
+  <millis>1577529658589</millis>
+  <nanos>181000</nanos>
+  <sequence>11</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>FINISHED: CLONING</message>
+</record>
+<record>
+  <date>2019-12-28T10:40:58.606672Z</date>
+  <millis>1577529658606</millis>
+  <nanos>672000</nanos>
+  <sequence>12</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>Cloning took 2 seconds - Repository size: 2427</message>
+</record>
+<record>
+  <date>2019-12-28T10:40:58.657909Z</date>
+  <millis>1577529658657</millis>
+  <nanos>909000</nanos>
+  <sequence>13</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>FINISHED: CLONING SUBMODULES</message>
+</record>
+<record>
+  <date>2019-12-28T10:40:58.674034Z</date>
+  <millis>1577529658674</millis>
+  <nanos>34000</nanos>
+  <sequence>14</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>Cloning submodules took 0 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:40:58.766Z</date>
+  <millis>1577529658766</millis>
+  <sequence>15</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>FINISHED: RESET WORKING TREE</message>
+</record>
+<record>
+  <date>2019-12-28T10:40:58.767645Z</date>
+  <millis>1577529658767</millis>
+  <nanos>645000</nanos>
+  <sequence>16</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>Resetting working tree took 0 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:40:59.865945Z</date>
+  <millis>1577529659865</millis>
+  <nanos>945000</nanos>
+  <sequence>17</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>FINISHED: CONAN INSTALL</message>
+</record>
+<record>
+  <date>2019-12-28T10:40:59.867680Z</date>
+  <millis>1577529659867</millis>
+  <nanos>680000</nanos>
+  <sequence>18</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>Installing dependencies took 1 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:40:59.880092Z</date>
+  <millis>1577529659880</millis>
+  <nanos>92000</nanos>
+  <sequence>19</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>FINISHED: FOLDER PREPARATION</message>
+</record>
+<record>
+  <date>2019-12-28T10:40:59.882279Z</date>
+  <millis>1577529659882</millis>
+  <nanos>279000</nanos>
+  <sequence>20</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>Build folder preparation took 0 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:41:01.413927Z</date>
+  <millis>1577529661413</millis>
+  <nanos>927000</nanos>
+  <sequence>21</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>FINISHED: CMAKE PREPARATION</message>
+</record>
+<record>
+  <date>2019-12-28T10:41:01.415255Z</date>
+  <millis>1577529661415</millis>
+  <nanos>255000</nanos>
+  <sequence>22</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>CMake preparation took 1 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:41:35.720911Z</date>
+  <millis>1577529695720</millis>
+  <nanos>911000</nanos>
+  <sequence>23</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>FINISHED: CMAKE BUILD</message>
+</record>
+<record>
+  <date>2019-12-28T10:41:35.722591Z</date>
+  <millis>1577529695722</millis>
+  <nanos>591000</nanos>
+  <sequence>24</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>CMake build took 34 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:41:35.768094Z</date>
+  <millis>1577529695768</millis>
+  <nanos>94000</nanos>
+  <sequence>25</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>gatherBuildTargetsAndExtractLLVMIR</method>
+  <thread>1</thread>
+  <message>Build summary: 15 Executables 6 Libraries 0 Archives</message>
+</record>
+<record>
+  <date>2019-12-28T10:41:41.239012Z</date>
+  <millis>1577529701239</millis>
+  <nanos>12000</nanos>
+  <sequence>26</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>gatherBuildTargetsAndExtractLLVMIR</method>
+  <thread>1</thread>
+  <message>Extracting and disassambling all build targets into LLVM IR took 5 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:41:43.440497Z</date>
+  <millis>1577529703440</millis>
+  <nanos>497000</nanos>
+  <sequence>27</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>runAnalysis</method>
+  <thread>1</thread>
+  <message>Analysis of all LLVM IR files took 2 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:41:43.534809Z</date>
+  <millis>1577529703534</millis>
+  <nanos>809000</nanos>
+  <sequence>28</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>ContainerCoordinator started at: 28-12-2019 10:40:56</message>
+</record>
+<record>
+  <date>2019-12-28T10:41:43.535889Z</date>
+  <millis>1577529703535</millis>
+  <nanos>889000</nanos>
+  <sequence>29</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>ContainerCoordinator terminated at: 28-12-2019 10:41:43</message>
+</record>
+<record>
+  <date>2019-12-28T10:41:43.538702Z</date>
+  <millis>1577529703538</millis>
+  <nanos>702000</nanos>
+  <sequence>30</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Overall execution time in seconds: 47</message>
+</record>
+<record>
+  <date>2019-12-28T10:41:43.545258Z</date>
+  <millis>1577529703545</millis>
+  <nanos>258000</nanos>
+  <sequence>31</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Overall execution time in minutes: 0.7833333333333333</message>
+</record>
+<record>
+  <date>2019-12-28T10:41:43.546379Z</date>
+  <millis>1577529703546</millis>
+  <nanos>379000</nanos>
+  <sequence>32</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Overall execution time in hours: 0.013055555555555556</message>
+</record>
+<record>
+  <date>2019-12-28T10:41:43.546898Z</date>
+  <millis>1577529703546</millis>
+  <nanos>898000</nanos>
+  <sequence>33</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>ContainerCoordinator finished. Shutting down</message>
+</record>
+</log>
+<?xml version="1.0" encoding="US-ASCII" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-12-28T10:41:45.589351Z</date>
+  <millis>1577529705589</millis>
+  <nanos>351000</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>-----------------------------------</message>
+</record>
+<record>
+  <date>2019-12-28T10:41:45.604577Z</date>
+  <millis>1577529705604</millis>
+  <nanos>577000</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>-----------------------------------</message>
+</record>
+<record>
+  <date>2019-12-28T10:41:45.605623Z</date>
+  <millis>1577529705605</millis>
+  <nanos>623000</nanos>
+  <sequence>2</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>CONFIGURATION:</message>
+</record>
+<record>
+  <date>2019-12-28T10:41:45.619676Z</date>
+  <millis>1577529705619</millis>
+  <nanos>676000</nanos>
+  <sequence>3</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Filepath: ../shared</message>
+</record>
+<record>
+  <date>2019-12-28T10:41:45.621227Z</date>
+  <millis>1577529705621</millis>
+  <nanos>227000</nanos>
+  <sequence>4</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Host path: ~/GitRepo/indexing-open-source-c-cpp-repositories/Docker-conan/shared</message>
+</record>
+<record>
+  <date>2019-12-28T10:41:45.622856Z</date>
+  <millis>1577529705622</millis>
+  <nanos>856000</nanos>
+  <sequence>5</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Container path: /shared</message>
+</record>
+<record>
+  <date>2019-12-28T10:41:45.639626Z</date>
+  <millis>1577529705639</millis>
+  <nanos>626000</nanos>
+  <sequence>6</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>repositories.json is read to: ../shared/repositories.json</message>
+</record>
+<record>
+  <date>2019-12-28T10:41:45.641237Z</date>
+  <millis>1577529705641</millis>
+  <nanos>237000</nanos>
+  <sequence>7</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>results.json is output to: ../shared/results.json</message>
+</record>
+<record>
+  <date>2019-12-28T10:41:45.642748Z</date>
+  <millis>1577529705642</millis>
+  <nanos>748000</nanos>
+  <sequence>8</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Using analysis tool : StatisticsAnalysis</message>
+</record>
+<record>
+  <date>2019-12-28T10:41:45.926853Z</date>
+  <millis>1577529705926</millis>
+  <nanos>853000</nanos>
+  <sequence>9</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>-----------------------------------</message>
+</record>
+<record>
+  <date>2019-12-28T10:41:45.975873Z</date>
+  <millis>1577529705975</millis>
+  <nanos>873000</nanos>
+  <sequence>10</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Running container pipeline at index: 4 for repository with id/owner/name: 1990838/Blosc/c-blosc</message>
+</record>
+<record>
+  <date>2019-12-28T10:41:48.287801Z</date>
+  <millis>1577529708287</millis>
+  <nanos>801000</nanos>
+  <sequence>11</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>FINISHED: CLONING</message>
+</record>
+<record>
+  <date>2019-12-28T10:41:48.305300Z</date>
+  <millis>1577529708305</millis>
+  <nanos>300000</nanos>
+  <sequence>12</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>Cloning took 2 seconds - Repository size: 4901</message>
+</record>
+<record>
+  <date>2019-12-28T10:41:48.354801Z</date>
+  <millis>1577529708354</millis>
+  <nanos>801000</nanos>
+  <sequence>13</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>FINISHED: CLONING SUBMODULES</message>
+</record>
+<record>
+  <date>2019-12-28T10:41:48.363615Z</date>
+  <millis>1577529708363</millis>
+  <nanos>615000</nanos>
+  <sequence>14</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>Cloning submodules took 0 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:41:48.499545Z</date>
+  <millis>1577529708499</millis>
+  <nanos>545000</nanos>
+  <sequence>15</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>FINISHED: RESET WORKING TREE</message>
+</record>
+<record>
+  <date>2019-12-28T10:41:48.501353Z</date>
+  <millis>1577529708501</millis>
+  <nanos>353000</nanos>
+  <sequence>16</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>Resetting working tree took 0 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:41:49.564282Z</date>
+  <millis>1577529709564</millis>
+  <nanos>282000</nanos>
+  <sequence>17</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>FINISHED: CONAN INSTALL</message>
+</record>
+<record>
+  <date>2019-12-28T10:41:49.566258Z</date>
+  <millis>1577529709566</millis>
+  <nanos>258000</nanos>
+  <sequence>18</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>Installing dependencies took 1 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:41:49.580602Z</date>
+  <millis>1577529709580</millis>
+  <nanos>602000</nanos>
+  <sequence>19</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>FINISHED: FOLDER PREPARATION</message>
+</record>
+<record>
+  <date>2019-12-28T10:41:49.583186Z</date>
+  <millis>1577529709583</millis>
+  <nanos>186000</nanos>
+  <sequence>20</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>Build folder preparation took 0 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:41:54.800718Z</date>
+  <millis>1577529714800</millis>
+  <nanos>718000</nanos>
+  <sequence>21</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>FINISHED: CMAKE PREPARATION</message>
+</record>
+<record>
+  <date>2019-12-28T10:41:54.802587Z</date>
+  <millis>1577529714802</millis>
+  <nanos>587000</nanos>
+  <sequence>22</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>CMake preparation took 5 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:49:15.592764Z</date>
+  <millis>1577530155592</millis>
+  <nanos>764000</nanos>
+  <sequence>23</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>FINISHED: CMAKE BUILD</message>
+</record>
+<record>
+  <date>2019-12-28T10:49:15.594476Z</date>
+  <millis>1577530155594</millis>
+  <nanos>476000</nanos>
+  <sequence>24</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>CMake build took 440 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:49:15.631922Z</date>
+  <millis>1577530155631</millis>
+  <nanos>922000</nanos>
+  <sequence>25</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>gatherBuildTargetsAndExtractLLVMIR</method>
+  <thread>1</thread>
+  <message>Build summary: 14 Executables 4 Libraries 1 Archives</message>
+</record>
+<record>
+  <date>2019-12-28T10:49:29.146224Z</date>
+  <millis>1577530169146</millis>
+  <nanos>224000</nanos>
+  <sequence>26</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>gatherBuildTargetsAndExtractLLVMIR</method>
+  <thread>1</thread>
+  <message>Extracting and disassambling all build targets into LLVM IR took 13 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:49:36.349420Z</date>
+  <millis>1577530176349</millis>
+  <nanos>420000</nanos>
+  <sequence>27</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>runAnalysis</method>
+  <thread>1</thread>
+  <message>Analysis of all LLVM IR files took 7 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:49:36.513955Z</date>
+  <millis>1577530176513</millis>
+  <nanos>955000</nanos>
+  <sequence>28</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>ContainerCoordinator started at: 28-12-2019 10:41:45</message>
+</record>
+<record>
+  <date>2019-12-28T10:49:36.515091Z</date>
+  <millis>1577530176515</millis>
+  <nanos>91000</nanos>
+  <sequence>29</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>ContainerCoordinator terminated at: 28-12-2019 10:49:36</message>
+</record>
+<record>
+  <date>2019-12-28T10:49:36.518755Z</date>
+  <millis>1577530176518</millis>
+  <nanos>755000</nanos>
+  <sequence>30</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Overall execution time in seconds: 470</message>
+</record>
+<record>
+  <date>2019-12-28T10:49:36.525874Z</date>
+  <millis>1577530176525</millis>
+  <nanos>874000</nanos>
+  <sequence>31</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Overall execution time in minutes: 7.833333333333333</message>
+</record>
+<record>
+  <date>2019-12-28T10:49:36.526969Z</date>
+  <millis>1577530176526</millis>
+  <nanos>969000</nanos>
+  <sequence>32</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Overall execution time in hours: 0.13055555555555556</message>
+</record>
+<record>
+  <date>2019-12-28T10:49:36.527568Z</date>
+  <millis>1577530176527</millis>
+  <nanos>568000</nanos>
+  <sequence>33</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>ContainerCoordinator finished. Shutting down</message>
+</record>
+</log>
+<?xml version="1.0" encoding="US-ASCII" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-12-28T10:49:38.680913Z</date>
+  <millis>1577530178680</millis>
+  <nanos>913000</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>-----------------------------------</message>
+</record>
+<record>
+  <date>2019-12-28T10:49:38.698453Z</date>
+  <millis>1577530178698</millis>
+  <nanos>453000</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>-----------------------------------</message>
+</record>
+<record>
+  <date>2019-12-28T10:49:38.699686Z</date>
+  <millis>1577530178699</millis>
+  <nanos>686000</nanos>
+  <sequence>2</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>CONFIGURATION:</message>
+</record>
+<record>
+  <date>2019-12-28T10:49:38.717877Z</date>
+  <millis>1577530178717</millis>
+  <nanos>877000</nanos>
+  <sequence>3</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Filepath: ../shared</message>
+</record>
+<record>
+  <date>2019-12-28T10:49:38.719836Z</date>
+  <millis>1577530178719</millis>
+  <nanos>836000</nanos>
+  <sequence>4</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Host path: ~/GitRepo/indexing-open-source-c-cpp-repositories/Docker-conan/shared</message>
+</record>
+<record>
+  <date>2019-12-28T10:49:38.721660Z</date>
+  <millis>1577530178721</millis>
+  <nanos>660000</nanos>
+  <sequence>5</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Container path: /shared</message>
+</record>
+<record>
+  <date>2019-12-28T10:49:38.742341Z</date>
+  <millis>1577530178742</millis>
+  <nanos>341000</nanos>
+  <sequence>6</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>repositories.json is read to: ../shared/repositories.json</message>
+</record>
+<record>
+  <date>2019-12-28T10:49:38.744344Z</date>
+  <millis>1577530178744</millis>
+  <nanos>344000</nanos>
+  <sequence>7</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>results.json is output to: ../shared/results.json</message>
+</record>
+<record>
+  <date>2019-12-28T10:49:38.746155Z</date>
+  <millis>1577530178746</millis>
+  <nanos>155000</nanos>
+  <sequence>8</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Using analysis tool : StatisticsAnalysis</message>
+</record>
+<record>
+  <date>2019-12-28T10:49:39.058410Z</date>
+  <millis>1577530179058</millis>
+  <nanos>410000</nanos>
+  <sequence>9</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>-----------------------------------</message>
+</record>
+<record>
+  <date>2019-12-28T10:49:39.107545Z</date>
+  <millis>1577530179107</millis>
+  <nanos>545000</nanos>
+  <sequence>10</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Running container pipeline at index: 5 for repository with id/owner/name: 127691413/altairwei/WizNotePlus</message>
+</record>
+<record>
+  <date>2019-12-28T10:49:57.103835Z</date>
+  <millis>1577530197103</millis>
+  <nanos>835000</nanos>
+  <sequence>11</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>FINISHED: CLONING</message>
+</record>
+<record>
+  <date>2019-12-28T10:49:57.121415Z</date>
+  <millis>1577530197121</millis>
+  <nanos>415000</nanos>
+  <sequence>12</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>Cloning took 17 seconds - Repository size: 91387</message>
+</record>
+<record>
+  <date>2019-12-28T10:49:58.601154Z</date>
+  <millis>1577530198601</millis>
+  <nanos>154000</nanos>
+  <sequence>13</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>FINISHED: CLONING SUBMODULES</message>
+</record>
+<record>
+  <date>2019-12-28T10:49:58.609276Z</date>
+  <millis>1577530198609</millis>
+  <nanos>276000</nanos>
+  <sequence>14</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>Cloning submodules took 1 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:49:58.769097Z</date>
+  <millis>1577530198769</millis>
+  <nanos>97000</nanos>
+  <sequence>15</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>FINISHED: RESET WORKING TREE</message>
+</record>
+<record>
+  <date>2019-12-28T10:49:58.770673Z</date>
+  <millis>1577530198770</millis>
+  <nanos>673000</nanos>
+  <sequence>16</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>Resetting working tree took 0 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:50:04.845770Z</date>
+  <millis>1577530204845</millis>
+  <nanos>770000</nanos>
+  <sequence>17</sequence>
+  <logger>global</logger>
+  <level>SEVERE</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>FAILED: CONAN INSTALL</message>
+</record>
+<record>
+  <date>2019-12-28T10:50:04.847705Z</date>
+  <millis>1577530204847</millis>
+  <nanos>705000</nanos>
+  <sequence>18</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>Installing dependencies took 6 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:50:05.007053Z</date>
+  <millis>1577530205007</millis>
+  <nanos>53000</nanos>
+  <sequence>19</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>ContainerCoordinator started at: 28-12-2019 10:49:38</message>
+</record>
+<record>
+  <date>2019-12-28T10:50:05.008512Z</date>
+  <millis>1577530205008</millis>
+  <nanos>512000</nanos>
+  <sequence>20</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>ContainerCoordinator terminated at: 28-12-2019 10:50:05</message>
+</record>
+<record>
+  <date>2019-12-28T10:50:05.012180Z</date>
+  <millis>1577530205012</millis>
+  <nanos>180000</nanos>
+  <sequence>21</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Overall execution time in seconds: 26</message>
+</record>
+<record>
+  <date>2019-12-28T10:50:05.020300Z</date>
+  <millis>1577530205020</millis>
+  <nanos>300000</nanos>
+  <sequence>22</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Overall execution time in minutes: 0.43333333333333335</message>
+</record>
+<record>
+  <date>2019-12-28T10:50:05.021356Z</date>
+  <millis>1577530205021</millis>
+  <nanos>356000</nanos>
+  <sequence>23</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Overall execution time in hours: 0.007222222222222222</message>
+</record>
+<record>
+  <date>2019-12-28T10:50:05.021856Z</date>
+  <millis>1577530205021</millis>
+  <nanos>856000</nanos>
+  <sequence>24</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>ContainerCoordinator finished. Shutting down</message>
+</record>
+</log>
+<?xml version="1.0" encoding="US-ASCII" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-12-28T10:50:06.925405Z</date>
+  <millis>1577530206925</millis>
+  <nanos>405000</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>-----------------------------------</message>
+</record>
+<record>
+  <date>2019-12-28T10:50:06.941692Z</date>
+  <millis>1577530206941</millis>
+  <nanos>692000</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>-----------------------------------</message>
+</record>
+<record>
+  <date>2019-12-28T10:50:06.942836Z</date>
+  <millis>1577530206942</millis>
+  <nanos>836000</nanos>
+  <sequence>2</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>CONFIGURATION:</message>
+</record>
+<record>
+  <date>2019-12-28T10:50:06.958160Z</date>
+  <millis>1577530206958</millis>
+  <nanos>160000</nanos>
+  <sequence>3</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Filepath: ../shared</message>
+</record>
+<record>
+  <date>2019-12-28T10:50:06.959953Z</date>
+  <millis>1577530206959</millis>
+  <nanos>953000</nanos>
+  <sequence>4</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Host path: ~/GitRepo/indexing-open-source-c-cpp-repositories/Docker-conan/shared</message>
+</record>
+<record>
+  <date>2019-12-28T10:50:06.961812Z</date>
+  <millis>1577530206961</millis>
+  <nanos>812000</nanos>
+  <sequence>5</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Container path: /shared</message>
+</record>
+<record>
+  <date>2019-12-28T10:50:06.979717Z</date>
+  <millis>1577530206979</millis>
+  <nanos>717000</nanos>
+  <sequence>6</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>repositories.json is read to: ../shared/repositories.json</message>
+</record>
+<record>
+  <date>2019-12-28T10:50:06.981452Z</date>
+  <millis>1577530206981</millis>
+  <nanos>452000</nanos>
+  <sequence>7</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>results.json is output to: ../shared/results.json</message>
+</record>
+<record>
+  <date>2019-12-28T10:50:06.983055Z</date>
+  <millis>1577530206983</millis>
+  <nanos>55000</nanos>
+  <sequence>8</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Using analysis tool : StatisticsAnalysis</message>
+</record>
+<record>
+  <date>2019-12-28T10:50:07.275314Z</date>
+  <millis>1577530207275</millis>
+  <nanos>314000</nanos>
+  <sequence>9</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>-----------------------------------</message>
+</record>
+<record>
+  <date>2019-12-28T10:50:07.327353Z</date>
+  <millis>1577530207327</millis>
+  <nanos>353000</nanos>
+  <sequence>10</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Running container pipeline at index: 6 for repository with id/owner/name: 16264207/argtable/argtable3</message>
+</record>
+<record>
+  <date>2019-12-28T10:50:08.787961Z</date>
+  <millis>1577530208787</millis>
+  <nanos>961000</nanos>
+  <sequence>11</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>FINISHED: CLONING</message>
+</record>
+<record>
+  <date>2019-12-28T10:50:08.806912Z</date>
+  <millis>1577530208806</millis>
+  <nanos>912000</nanos>
+  <sequence>12</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>Cloning took 1 seconds - Repository size: 386</message>
+</record>
+<record>
+  <date>2019-12-28T10:50:08.863728Z</date>
+  <millis>1577530208863</millis>
+  <nanos>728000</nanos>
+  <sequence>13</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>FINISHED: CLONING SUBMODULES</message>
+</record>
+<record>
+  <date>2019-12-28T10:50:08.878140Z</date>
+  <millis>1577530208878</millis>
+  <nanos>140000</nanos>
+  <sequence>14</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>Cloning submodules took 0 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:50:08.934667Z</date>
+  <millis>1577530208934</millis>
+  <nanos>667000</nanos>
+  <sequence>15</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>FINISHED: RESET WORKING TREE</message>
+</record>
+<record>
+  <date>2019-12-28T10:50:08.936294Z</date>
+  <millis>1577530208936</millis>
+  <nanos>294000</nanos>
+  <sequence>16</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>Resetting working tree took 0 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:50:10.034312Z</date>
+  <millis>1577530210034</millis>
+  <nanos>312000</nanos>
+  <sequence>17</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>FINISHED: CONAN INSTALL</message>
+</record>
+<record>
+  <date>2019-12-28T10:50:10.035814Z</date>
+  <millis>1577530210035</millis>
+  <nanos>814000</nanos>
+  <sequence>18</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>Installing dependencies took 1 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:50:10.047636Z</date>
+  <millis>1577530210047</millis>
+  <nanos>636000</nanos>
+  <sequence>19</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>FINISHED: FOLDER PREPARATION</message>
+</record>
+<record>
+  <date>2019-12-28T10:50:10.049113Z</date>
+  <millis>1577530210049</millis>
+  <nanos>113000</nanos>
+  <sequence>20</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>Build folder preparation took 0 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:50:13.209541Z</date>
+  <millis>1577530213209</millis>
+  <nanos>541000</nanos>
+  <sequence>21</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>FINISHED: CMAKE PREPARATION</message>
+</record>
+<record>
+  <date>2019-12-28T10:50:13.211456Z</date>
+  <millis>1577530213211</millis>
+  <nanos>456000</nanos>
+  <sequence>22</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>CMake preparation took 3 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:51:15.668904Z</date>
+  <millis>1577530275668</millis>
+  <nanos>904000</nanos>
+  <sequence>23</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>FINISHED: CMAKE BUILD</message>
+</record>
+<record>
+  <date>2019-12-28T10:51:15.670911Z</date>
+  <millis>1577530275670</millis>
+  <nanos>911000</nanos>
+  <sequence>24</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>CMake build took 62 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:51:15.712885Z</date>
+  <millis>1577530275712</millis>
+  <nanos>885000</nanos>
+  <sequence>25</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>gatherBuildTargetsAndExtractLLVMIR</method>
+  <thread>1</thread>
+  <message>Build summary: 13 Executables 3 Libraries 1 Archives</message>
+</record>
+<record>
+  <date>2019-12-28T10:51:20.359946Z</date>
+  <millis>1577530280359</millis>
+  <nanos>946000</nanos>
+  <sequence>26</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>gatherBuildTargetsAndExtractLLVMIR</method>
+  <thread>1</thread>
+  <message>Extracting and disassambling all build targets into LLVM IR took 4 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:51:22.273366Z</date>
+  <millis>1577530282273</millis>
+  <nanos>366000</nanos>
+  <sequence>27</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>runAnalysis</method>
+  <thread>1</thread>
+  <message>Analysis of all LLVM IR files took 1 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:51:22.367227Z</date>
+  <millis>1577530282367</millis>
+  <nanos>227000</nanos>
+  <sequence>28</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>ContainerCoordinator started at: 28-12-2019 10:50:07</message>
+</record>
+<record>
+  <date>2019-12-28T10:51:22.368250Z</date>
+  <millis>1577530282368</millis>
+  <nanos>250000</nanos>
+  <sequence>29</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>ContainerCoordinator terminated at: 28-12-2019 10:51:22</message>
+</record>
+<record>
+  <date>2019-12-28T10:51:22.371937Z</date>
+  <millis>1577530282371</millis>
+  <nanos>937000</nanos>
+  <sequence>30</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Overall execution time in seconds: 75</message>
+</record>
+<record>
+  <date>2019-12-28T10:51:22.378563Z</date>
+  <millis>1577530282378</millis>
+  <nanos>563000</nanos>
+  <sequence>31</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Overall execution time in minutes: 1.25</message>
+</record>
+<record>
+  <date>2019-12-28T10:51:22.379672Z</date>
+  <millis>1577530282379</millis>
+  <nanos>672000</nanos>
+  <sequence>32</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Overall execution time in hours: 0.020833333333333332</message>
+</record>
+<record>
+  <date>2019-12-28T10:51:22.380253Z</date>
+  <millis>1577530282380</millis>
+  <nanos>253000</nanos>
+  <sequence>33</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>ContainerCoordinator finished. Shutting down</message>
+</record>
+</log>
+<?xml version="1.0" encoding="US-ASCII" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-12-28T10:51:24.317366Z</date>
+  <millis>1577530284317</millis>
+  <nanos>366000</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>-----------------------------------</message>
+</record>
+<record>
+  <date>2019-12-28T10:51:24.332919Z</date>
+  <millis>1577530284332</millis>
+  <nanos>919000</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>-----------------------------------</message>
+</record>
+<record>
+  <date>2019-12-28T10:51:24.334018Z</date>
+  <millis>1577530284334</millis>
+  <nanos>18000</nanos>
+  <sequence>2</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>CONFIGURATION:</message>
+</record>
+<record>
+  <date>2019-12-28T10:51:24.349004Z</date>
+  <millis>1577530284349</millis>
+  <nanos>4000</nanos>
+  <sequence>3</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Filepath: ../shared</message>
+</record>
+<record>
+  <date>2019-12-28T10:51:24.350725Z</date>
+  <millis>1577530284350</millis>
+  <nanos>725000</nanos>
+  <sequence>4</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Host path: ~/GitRepo/indexing-open-source-c-cpp-repositories/Docker-conan/shared</message>
+</record>
+<record>
+  <date>2019-12-28T10:51:24.352399Z</date>
+  <millis>1577530284352</millis>
+  <nanos>399000</nanos>
+  <sequence>5</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Container path: /shared</message>
+</record>
+<record>
+  <date>2019-12-28T10:51:24.369546Z</date>
+  <millis>1577530284369</millis>
+  <nanos>546000</nanos>
+  <sequence>6</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>repositories.json is read to: ../shared/repositories.json</message>
+</record>
+<record>
+  <date>2019-12-28T10:51:24.371292Z</date>
+  <millis>1577530284371</millis>
+  <nanos>292000</nanos>
+  <sequence>7</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>results.json is output to: ../shared/results.json</message>
+</record>
+<record>
+  <date>2019-12-28T10:51:24.372830Z</date>
+  <millis>1577530284372</millis>
+  <nanos>830000</nanos>
+  <sequence>8</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Using analysis tool : StatisticsAnalysis</message>
+</record>
+<record>
+  <date>2019-12-28T10:51:24.674304Z</date>
+  <millis>1577530284674</millis>
+  <nanos>304000</nanos>
+  <sequence>9</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>-----------------------------------</message>
+</record>
+<record>
+  <date>2019-12-28T10:51:24.724386Z</date>
+  <millis>1577530284724</millis>
+  <nanos>386000</nanos>
+  <sequence>10</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Running container pipeline at index: 7 for repository with id/owner/name: 116033455/eclipse-cyclonedds/cyclonedds</message>
+</record>
+<record>
+  <date>2019-12-28T10:51:27.456135Z</date>
+  <millis>1577530287456</millis>
+  <nanos>135000</nanos>
+  <sequence>11</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>FINISHED: CLONING</message>
+</record>
+<record>
+  <date>2019-12-28T10:51:27.471168Z</date>
+  <millis>1577530287471</millis>
+  <nanos>168000</nanos>
+  <sequence>12</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>Cloning took 2 seconds - Repository size: 8304</message>
+</record>
+<record>
+  <date>2019-12-28T10:51:27.525312Z</date>
+  <millis>1577530287525</millis>
+  <nanos>312000</nanos>
+  <sequence>13</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>FINISHED: CLONING SUBMODULES</message>
+</record>
+<record>
+  <date>2019-12-28T10:51:27.533099Z</date>
+  <millis>1577530287533</millis>
+  <nanos>99000</nanos>
+  <sequence>14</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>Cloning submodules took 0 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:51:27.707521Z</date>
+  <millis>1577530287707</millis>
+  <nanos>521000</nanos>
+  <sequence>15</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>FINISHED: RESET WORKING TREE</message>
+</record>
+<record>
+  <date>2019-12-28T10:51:27.708902Z</date>
+  <millis>1577530287708</millis>
+  <nanos>902000</nanos>
+  <sequence>16</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>Resetting working tree took 0 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:51:42.807436Z</date>
+  <millis>1577530302807</millis>
+  <nanos>436000</nanos>
+  <sequence>17</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>FINISHED: CONAN INSTALL</message>
+</record>
+<record>
+  <date>2019-12-28T10:51:42.809610Z</date>
+  <millis>1577530302809</millis>
+  <nanos>610000</nanos>
+  <sequence>18</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>Installing dependencies took 15 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:51:42.822259Z</date>
+  <millis>1577530302822</millis>
+  <nanos>259000</nanos>
+  <sequence>19</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>FINISHED: FOLDER PREPARATION</message>
+</record>
+<record>
+  <date>2019-12-28T10:51:42.823836Z</date>
+  <millis>1577530302823</millis>
+  <nanos>836000</nanos>
+  <sequence>20</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>Build folder preparation took 0 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:51:48.741924Z</date>
+  <millis>1577530308741</millis>
+  <nanos>924000</nanos>
+  <sequence>21</sequence>
+  <logger>global</logger>
+  <level>SEVERE</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>FAILED: CMAKE PREPARATION</message>
+</record>
+<record>
+  <date>2019-12-28T10:51:48.743594Z</date>
+  <millis>1577530308743</millis>
+  <nanos>594000</nanos>
+  <sequence>22</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>CMake preparation took 5 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:51:48.836371Z</date>
+  <millis>1577530308836</millis>
+  <nanos>371000</nanos>
+  <sequence>23</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>ContainerCoordinator started at: 28-12-2019 10:51:24</message>
+</record>
+<record>
+  <date>2019-12-28T10:51:48.837782Z</date>
+  <millis>1577530308837</millis>
+  <nanos>782000</nanos>
+  <sequence>24</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>ContainerCoordinator terminated at: 28-12-2019 10:51:48</message>
+</record>
+<record>
+  <date>2019-12-28T10:51:48.841482Z</date>
+  <millis>1577530308841</millis>
+  <nanos>482000</nanos>
+  <sequence>25</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Overall execution time in seconds: 24</message>
+</record>
+<record>
+  <date>2019-12-28T10:51:48.848672Z</date>
+  <millis>1577530308848</millis>
+  <nanos>672000</nanos>
+  <sequence>26</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Overall execution time in minutes: 0.4</message>
+</record>
+<record>
+  <date>2019-12-28T10:51:48.849578Z</date>
+  <millis>1577530308849</millis>
+  <nanos>578000</nanos>
+  <sequence>27</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Overall execution time in hours: 0.006666666666666667</message>
+</record>
+<record>
+  <date>2019-12-28T10:51:48.850037Z</date>
+  <millis>1577530308850</millis>
+  <nanos>37000</nanos>
+  <sequence>28</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>ContainerCoordinator finished. Shutting down</message>
+</record>
+</log>
+<?xml version="1.0" encoding="US-ASCII" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-12-28T10:51:50.737419Z</date>
+  <millis>1577530310737</millis>
+  <nanos>419000</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>-----------------------------------</message>
+</record>
+<record>
+  <date>2019-12-28T10:51:50.753562Z</date>
+  <millis>1577530310753</millis>
+  <nanos>562000</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>-----------------------------------</message>
+</record>
+<record>
+  <date>2019-12-28T10:51:50.754688Z</date>
+  <millis>1577530310754</millis>
+  <nanos>688000</nanos>
+  <sequence>2</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>CONFIGURATION:</message>
+</record>
+<record>
+  <date>2019-12-28T10:51:50.769359Z</date>
+  <millis>1577530310769</millis>
+  <nanos>359000</nanos>
+  <sequence>3</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Filepath: ../shared</message>
+</record>
+<record>
+  <date>2019-12-28T10:51:50.771062Z</date>
+  <millis>1577530310771</millis>
+  <nanos>62000</nanos>
+  <sequence>4</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Host path: ~/GitRepo/indexing-open-source-c-cpp-repositories/Docker-conan/shared</message>
+</record>
+<record>
+  <date>2019-12-28T10:51:50.772692Z</date>
+  <millis>1577530310772</millis>
+  <nanos>692000</nanos>
+  <sequence>5</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Container path: /shared</message>
+</record>
+<record>
+  <date>2019-12-28T10:51:50.790058Z</date>
+  <millis>1577530310790</millis>
+  <nanos>58000</nanos>
+  <sequence>6</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>repositories.json is read to: ../shared/repositories.json</message>
+</record>
+<record>
+  <date>2019-12-28T10:51:50.791755Z</date>
+  <millis>1577530310791</millis>
+  <nanos>755000</nanos>
+  <sequence>7</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>results.json is output to: ../shared/results.json</message>
+</record>
+<record>
+  <date>2019-12-28T10:51:50.793302Z</date>
+  <millis>1577530310793</millis>
+  <nanos>302000</nanos>
+  <sequence>8</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Using analysis tool : StatisticsAnalysis</message>
+</record>
+<record>
+  <date>2019-12-28T10:51:51.083188Z</date>
+  <millis>1577530311083</millis>
+  <nanos>188000</nanos>
+  <sequence>9</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>-----------------------------------</message>
+</record>
+<record>
+  <date>2019-12-28T10:51:51.134022Z</date>
+  <millis>1577530311134</millis>
+  <nanos>22000</nanos>
+  <sequence>10</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Running container pipeline at index: 8 for repository with id/owner/name: 35875178/riebl/vanetza</message>
+</record>
+<record>
+  <date>2019-12-28T10:51:53.493573Z</date>
+  <millis>1577530313493</millis>
+  <nanos>573000</nanos>
+  <sequence>11</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>FINISHED: CLONING</message>
+</record>
+<record>
+  <date>2019-12-28T10:51:53.511725Z</date>
+  <millis>1577530313511</millis>
+  <nanos>725000</nanos>
+  <sequence>12</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>Cloning took 2 seconds - Repository size: 4875</message>
+</record>
+<record>
+  <date>2019-12-28T10:51:53.565258Z</date>
+  <millis>1577530313565</millis>
+  <nanos>258000</nanos>
+  <sequence>13</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>FINISHED: CLONING SUBMODULES</message>
+</record>
+<record>
+  <date>2019-12-28T10:51:53.573110Z</date>
+  <millis>1577530313573</millis>
+  <nanos>110000</nanos>
+  <sequence>14</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>Cloning submodules took 0 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:51:53.719735Z</date>
+  <millis>1577530313719</millis>
+  <nanos>735000</nanos>
+  <sequence>15</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>FINISHED: RESET WORKING TREE</message>
+</record>
+<record>
+  <date>2019-12-28T10:51:53.721723Z</date>
+  <millis>1577530313721</millis>
+  <nanos>723000</nanos>
+  <sequence>16</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>Resetting working tree took 0 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:51:56.680315Z</date>
+  <millis>1577530316680</millis>
+  <nanos>315000</nanos>
+  <sequence>17</sequence>
+  <logger>global</logger>
+  <level>SEVERE</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>FAILED: CONAN INSTALL</message>
+</record>
+<record>
+  <date>2019-12-28T10:51:56.682381Z</date>
+  <millis>1577530316682</millis>
+  <nanos>381000</nanos>
+  <sequence>18</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>Installing dependencies took 2 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:51:56.787232Z</date>
+  <millis>1577530316787</millis>
+  <nanos>232000</nanos>
+  <sequence>19</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>ContainerCoordinator started at: 28-12-2019 10:51:50</message>
+</record>
+<record>
+  <date>2019-12-28T10:51:56.788669Z</date>
+  <millis>1577530316788</millis>
+  <nanos>669000</nanos>
+  <sequence>20</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>ContainerCoordinator terminated at: 28-12-2019 10:51:56</message>
+</record>
+<record>
+  <date>2019-12-28T10:51:56.792463Z</date>
+  <millis>1577530316792</millis>
+  <nanos>463000</nanos>
+  <sequence>21</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Overall execution time in seconds: 5</message>
+</record>
+<record>
+  <date>2019-12-28T10:51:56.800634Z</date>
+  <millis>1577530316800</millis>
+  <nanos>634000</nanos>
+  <sequence>22</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Overall execution time in minutes: 0.08333333333333333</message>
+</record>
+<record>
+  <date>2019-12-28T10:51:56.801856Z</date>
+  <millis>1577530316801</millis>
+  <nanos>856000</nanos>
+  <sequence>23</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Overall execution time in hours: 0.001388888888888889</message>
+</record>
+<record>
+  <date>2019-12-28T10:51:56.802345Z</date>
+  <millis>1577530316802</millis>
+  <nanos>345000</nanos>
+  <sequence>24</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>ContainerCoordinator finished. Shutting down</message>
+</record>
+</log>
+<?xml version="1.0" encoding="US-ASCII" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-12-28T10:51:58.681252Z</date>
+  <millis>1577530318681</millis>
+  <nanos>252000</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>-----------------------------------</message>
+</record>
+<record>
+  <date>2019-12-28T10:51:58.696862Z</date>
+  <millis>1577530318696</millis>
+  <nanos>862000</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>-----------------------------------</message>
+</record>
+<record>
+  <date>2019-12-28T10:51:58.697913Z</date>
+  <millis>1577530318697</millis>
+  <nanos>913000</nanos>
+  <sequence>2</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>CONFIGURATION:</message>
+</record>
+<record>
+  <date>2019-12-28T10:51:58.712521Z</date>
+  <millis>1577530318712</millis>
+  <nanos>521000</nanos>
+  <sequence>3</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Filepath: ../shared</message>
+</record>
+<record>
+  <date>2019-12-28T10:51:58.714156Z</date>
+  <millis>1577530318714</millis>
+  <nanos>156000</nanos>
+  <sequence>4</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Host path: ~/GitRepo/indexing-open-source-c-cpp-repositories/Docker-conan/shared</message>
+</record>
+<record>
+  <date>2019-12-28T10:51:58.715777Z</date>
+  <millis>1577530318715</millis>
+  <nanos>777000</nanos>
+  <sequence>5</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Container path: /shared</message>
+</record>
+<record>
+  <date>2019-12-28T10:51:58.735002Z</date>
+  <millis>1577530318735</millis>
+  <nanos>2000</nanos>
+  <sequence>6</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>repositories.json is read to: ../shared/repositories.json</message>
+</record>
+<record>
+  <date>2019-12-28T10:51:58.736899Z</date>
+  <millis>1577530318736</millis>
+  <nanos>899000</nanos>
+  <sequence>7</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>results.json is output to: ../shared/results.json</message>
+</record>
+<record>
+  <date>2019-12-28T10:51:58.738646Z</date>
+  <millis>1577530318738</millis>
+  <nanos>646000</nanos>
+  <sequence>8</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Using analysis tool : StatisticsAnalysis</message>
+</record>
+<record>
+  <date>2019-12-28T10:51:59.020149Z</date>
+  <millis>1577530319020</millis>
+  <nanos>149000</nanos>
+  <sequence>9</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>-----------------------------------</message>
+</record>
+<record>
+  <date>2019-12-28T10:51:59.068402Z</date>
+  <millis>1577530319068</millis>
+  <nanos>402000</nanos>
+  <sequence>10</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Running container pipeline at index: 9 for repository with id/owner/name: 128069735/topfreegames/libpitaya</message>
+</record>
+<record>
+  <date>2019-12-28T10:52:13.094929Z</date>
+  <millis>1577530333094</millis>
+  <nanos>929000</nanos>
+  <sequence>11</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>FINISHED: CLONING</message>
+</record>
+<record>
+  <date>2019-12-28T10:52:13.111624Z</date>
+  <millis>1577530333111</millis>
+  <nanos>624000</nanos>
+  <sequence>12</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>Cloning took 14 seconds - Repository size: 175211</message>
+</record>
+<record>
+  <date>2019-12-28T10:52:14.265419Z</date>
+  <millis>1577530334265</millis>
+  <nanos>419000</nanos>
+  <sequence>13</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>FINISHED: CLONING SUBMODULES</message>
+</record>
+<record>
+  <date>2019-12-28T10:52:14.272826Z</date>
+  <millis>1577530334272</millis>
+  <nanos>826000</nanos>
+  <sequence>14</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>Cloning submodules took 1 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:52:14.430580Z</date>
+  <millis>1577530334430</millis>
+  <nanos>580000</nanos>
+  <sequence>15</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>FINISHED: RESET WORKING TREE</message>
+</record>
+<record>
+  <date>2019-12-28T10:52:14.432465Z</date>
+  <millis>1577530334432</millis>
+  <nanos>465000</nanos>
+  <sequence>16</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>Resetting working tree took 0 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:52:26.404501Z</date>
+  <millis>1577530346404</millis>
+  <nanos>501000</nanos>
+  <sequence>17</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>FINISHED: CONAN INSTALL</message>
+</record>
+<record>
+  <date>2019-12-28T10:52:26.406473Z</date>
+  <millis>1577530346406</millis>
+  <nanos>473000</nanos>
+  <sequence>18</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>Installing dependencies took 11 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:52:26.418663Z</date>
+  <millis>1577530346418</millis>
+  <nanos>663000</nanos>
+  <sequence>19</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>FINISHED: FOLDER PREPARATION</message>
+</record>
+<record>
+  <date>2019-12-28T10:52:26.420344Z</date>
+  <millis>1577530346420</millis>
+  <nanos>344000</nanos>
+  <sequence>20</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>Build folder preparation took 0 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:52:33.783496Z</date>
+  <millis>1577530353783</millis>
+  <nanos>496000</nanos>
+  <sequence>21</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>FINISHED: CMAKE PREPARATION</message>
+</record>
+<record>
+  <date>2019-12-28T10:52:33.785515Z</date>
+  <millis>1577530353785</millis>
+  <nanos>515000</nanos>
+  <sequence>22</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>CMake preparation took 7 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:02.403280Z</date>
+  <millis>1577530442403</millis>
+  <nanos>280000</nanos>
+  <sequence>23</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>FINISHED: CMAKE BUILD</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:02.404415Z</date>
+  <millis>1577530442404</millis>
+  <nanos>415000</nanos>
+  <sequence>24</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>CMake build took 88 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:02.445004Z</date>
+  <millis>1577530442445</millis>
+  <nanos>4000</nanos>
+  <sequence>25</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>gatherBuildTargetsAndExtractLLVMIR</method>
+  <thread>1</thread>
+  <message>Build summary: 18 Executables 4 Libraries 3 Archives</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:08.596022Z</date>
+  <millis>1577530448596</millis>
+  <nanos>22000</nanos>
+  <sequence>26</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>gatherBuildTargetsAndExtractLLVMIR</method>
+  <thread>1</thread>
+  <message>Extracting and disassambling all build targets into LLVM IR took 6 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:10.245545Z</date>
+  <millis>1577530450245</millis>
+  <nanos>545000</nanos>
+  <sequence>27</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>runAnalysis</method>
+  <thread>1</thread>
+  <message>Analysis of all LLVM IR files took 1 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:10.545527Z</date>
+  <millis>1577530450545</millis>
+  <nanos>527000</nanos>
+  <sequence>28</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>ContainerCoordinator started at: 28-12-2019 10:51:58</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:10.546527Z</date>
+  <millis>1577530450546</millis>
+  <nanos>527000</nanos>
+  <sequence>29</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>ContainerCoordinator terminated at: 28-12-2019 10:54:10</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:10.549642Z</date>
+  <millis>1577530450549</millis>
+  <nanos>642000</nanos>
+  <sequence>30</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Overall execution time in seconds: 131</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:10.555795Z</date>
+  <millis>1577530450555</millis>
+  <nanos>795000</nanos>
+  <sequence>31</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Overall execution time in minutes: 2.183333333333333</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:10.556619Z</date>
+  <millis>1577530450556</millis>
+  <nanos>619000</nanos>
+  <sequence>32</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Overall execution time in hours: 0.03638888888888889</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:10.557056Z</date>
+  <millis>1577530450557</millis>
+  <nanos>56000</nanos>
+  <sequence>33</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>ContainerCoordinator finished. Shutting down</message>
+</record>
+</log>
+<?xml version="1.0" encoding="US-ASCII" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-12-28T10:54:12.415107Z</date>
+  <millis>1577530452415</millis>
+  <nanos>107000</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>-----------------------------------</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:12.430757Z</date>
+  <millis>1577530452430</millis>
+  <nanos>757000</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>-----------------------------------</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:12.431845Z</date>
+  <millis>1577530452431</millis>
+  <nanos>845000</nanos>
+  <sequence>2</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>CONFIGURATION:</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:12.447004Z</date>
+  <millis>1577530452447</millis>
+  <nanos>4000</nanos>
+  <sequence>3</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Filepath: ../shared</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:12.448694Z</date>
+  <millis>1577530452448</millis>
+  <nanos>694000</nanos>
+  <sequence>4</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Host path: ~/GitRepo/indexing-open-source-c-cpp-repositories/Docker-conan/shared</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:12.450370Z</date>
+  <millis>1577530452450</millis>
+  <nanos>370000</nanos>
+  <sequence>5</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Container path: /shared</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:12.467439Z</date>
+  <millis>1577530452467</millis>
+  <nanos>439000</nanos>
+  <sequence>6</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>repositories.json is read to: ../shared/repositories.json</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:12.469080Z</date>
+  <millis>1577530452469</millis>
+  <nanos>80000</nanos>
+  <sequence>7</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>results.json is output to: ../shared/results.json</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:12.470573Z</date>
+  <millis>1577530452470</millis>
+  <nanos>573000</nanos>
+  <sequence>8</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Using analysis tool : StatisticsAnalysis</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:12.765650Z</date>
+  <millis>1577530452765</millis>
+  <nanos>650000</nanos>
+  <sequence>9</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>-----------------------------------</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:12.815189Z</date>
+  <millis>1577530452815</millis>
+  <nanos>189000</nanos>
+  <sequence>10</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Running container pipeline at index: 10 for repository with id/owner/name: 40561722/jrl-umi3218/eigen-qld</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:14.506793Z</date>
+  <millis>1577530454506</millis>
+  <nanos>793000</nanos>
+  <sequence>11</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>FINISHED: CLONING</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:14.525088Z</date>
+  <millis>1577530454525</millis>
+  <nanos>88000</nanos>
+  <sequence>12</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>Cloning took 1 seconds - Repository size: 1121</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:16.408170Z</date>
+  <millis>1577530456408</millis>
+  <nanos>170000</nanos>
+  <sequence>13</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>FINISHED: CLONING SUBMODULES</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:16.416981Z</date>
+  <millis>1577530456416</millis>
+  <nanos>981000</nanos>
+  <sequence>14</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>Cloning submodules took 1 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:16.456133Z</date>
+  <millis>1577530456456</millis>
+  <nanos>133000</nanos>
+  <sequence>15</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>FINISHED: RESET WORKING TREE</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:16.457464Z</date>
+  <millis>1577530456457</millis>
+  <nanos>464000</nanos>
+  <sequence>16</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>Resetting working tree took 0 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:19.392695Z</date>
+  <millis>1577530459392</millis>
+  <nanos>695000</nanos>
+  <sequence>17</sequence>
+  <logger>global</logger>
+  <level>SEVERE</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>FAILED: CONAN INSTALL</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:19.394736Z</date>
+  <millis>1577530459394</millis>
+  <nanos>736000</nanos>
+  <sequence>18</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>Installing dependencies took 2 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:19.474670Z</date>
+  <millis>1577530459474</millis>
+  <nanos>670000</nanos>
+  <sequence>19</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>ContainerCoordinator started at: 28-12-2019 10:54:12</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:19.476Z</date>
+  <millis>1577530459476</millis>
+  <sequence>20</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>ContainerCoordinator terminated at: 28-12-2019 10:54:19</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:19.479319Z</date>
+  <millis>1577530459479</millis>
+  <nanos>319000</nanos>
+  <sequence>21</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Overall execution time in seconds: 6</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:19.487289Z</date>
+  <millis>1577530459487</millis>
+  <nanos>289000</nanos>
+  <sequence>22</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Overall execution time in minutes: 0.1</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:19.488611Z</date>
+  <millis>1577530459488</millis>
+  <nanos>611000</nanos>
+  <sequence>23</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Overall execution time in hours: 0.0016666666666666668</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:19.489122Z</date>
+  <millis>1577530459489</millis>
+  <nanos>122000</nanos>
+  <sequence>24</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>ContainerCoordinator finished. Shutting down</message>
+</record>
+</log>
+<?xml version="1.0" encoding="US-ASCII" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-12-28T10:54:21.360280Z</date>
+  <millis>1577530461360</millis>
+  <nanos>280000</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>-----------------------------------</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:21.375296Z</date>
+  <millis>1577530461375</millis>
+  <nanos>296000</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>-----------------------------------</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:21.376336Z</date>
+  <millis>1577530461376</millis>
+  <nanos>336000</nanos>
+  <sequence>2</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>CONFIGURATION:</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:21.390502Z</date>
+  <millis>1577530461390</millis>
+  <nanos>502000</nanos>
+  <sequence>3</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Filepath: ../shared</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:21.392084Z</date>
+  <millis>1577530461392</millis>
+  <nanos>84000</nanos>
+  <sequence>4</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Host path: ~/GitRepo/indexing-open-source-c-cpp-repositories/Docker-conan/shared</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:21.393616Z</date>
+  <millis>1577530461393</millis>
+  <nanos>616000</nanos>
+  <sequence>5</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Container path: /shared</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:21.411912Z</date>
+  <millis>1577530461411</millis>
+  <nanos>912000</nanos>
+  <sequence>6</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>repositories.json is read to: ../shared/repositories.json</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:21.413867Z</date>
+  <millis>1577530461413</millis>
+  <nanos>867000</nanos>
+  <sequence>7</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>results.json is output to: ../shared/results.json</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:21.415633Z</date>
+  <millis>1577530461415</millis>
+  <nanos>633000</nanos>
+  <sequence>8</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Using analysis tool : StatisticsAnalysis</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:21.694382Z</date>
+  <millis>1577530461694</millis>
+  <nanos>382000</nanos>
+  <sequence>9</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>-----------------------------------</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:21.742370Z</date>
+  <millis>1577530461742</millis>
+  <nanos>370000</nanos>
+  <sequence>10</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Running container pipeline at index: 11 for repository with id/owner/name: 44736572/conan-community/conan-zlib</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:23.241552Z</date>
+  <millis>1577530463241</millis>
+  <nanos>552000</nanos>
+  <sequence>11</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>FINISHED: CLONING</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:23.256549Z</date>
+  <millis>1577530463256</millis>
+  <nanos>549000</nanos>
+  <sequence>12</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>Cloning took 1 seconds - Repository size: 381</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:23.312661Z</date>
+  <millis>1577530463312</millis>
+  <nanos>661000</nanos>
+  <sequence>13</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>FINISHED: CLONING SUBMODULES</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:23.320533Z</date>
+  <millis>1577530463320</millis>
+  <nanos>533000</nanos>
+  <sequence>14</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>Cloning submodules took 0 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:23.360472Z</date>
+  <millis>1577530463360</millis>
+  <nanos>472000</nanos>
+  <sequence>15</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>FINISHED: RESET WORKING TREE</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:23.362061Z</date>
+  <millis>1577530463362</millis>
+  <nanos>61000</nanos>
+  <sequence>16</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>Resetting working tree took 0 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:24.437364Z</date>
+  <millis>1577530464437</millis>
+  <nanos>364000</nanos>
+  <sequence>17</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>FINISHED: CONAN INSTALL</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:24.439300Z</date>
+  <millis>1577530464439</millis>
+  <nanos>300000</nanos>
+  <sequence>18</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>Installing dependencies took 1 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:24.451763Z</date>
+  <millis>1577530464451</millis>
+  <nanos>763000</nanos>
+  <sequence>19</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>FINISHED: FOLDER PREPARATION</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:24.453108Z</date>
+  <millis>1577530464453</millis>
+  <nanos>108000</nanos>
+  <sequence>20</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>Build folder preparation took 0 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:27.479212Z</date>
+  <millis>1577530467479</millis>
+  <nanos>212000</nanos>
+  <sequence>21</sequence>
+  <logger>global</logger>
+  <level>SEVERE</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>FAILED: CMAKE PREPARATION</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:27.480639Z</date>
+  <millis>1577530467480</millis>
+  <nanos>639000</nanos>
+  <sequence>22</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>CMake preparation took 3 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:27.544363Z</date>
+  <millis>1577530467544</millis>
+  <nanos>363000</nanos>
+  <sequence>23</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>ContainerCoordinator started at: 28-12-2019 10:54:21</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:27.545592Z</date>
+  <millis>1577530467545</millis>
+  <nanos>592000</nanos>
+  <sequence>24</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>ContainerCoordinator terminated at: 28-12-2019 10:54:27</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:27.549147Z</date>
+  <millis>1577530467549</millis>
+  <nanos>147000</nanos>
+  <sequence>25</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Overall execution time in seconds: 6</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:27.556070Z</date>
+  <millis>1577530467556</millis>
+  <nanos>70000</nanos>
+  <sequence>26</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Overall execution time in minutes: 0.1</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:27.557286Z</date>
+  <millis>1577530467557</millis>
+  <nanos>286000</nanos>
+  <sequence>27</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Overall execution time in hours: 0.0016666666666666668</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:27.557829Z</date>
+  <millis>1577530467557</millis>
+  <nanos>829000</nanos>
+  <sequence>28</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>ContainerCoordinator finished. Shutting down</message>
+</record>
+</log>
+<?xml version="1.0" encoding="US-ASCII" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-12-28T10:54:29.408810Z</date>
+  <millis>1577530469408</millis>
+  <nanos>810000</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>-----------------------------------</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:29.423943Z</date>
+  <millis>1577530469423</millis>
+  <nanos>943000</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>-----------------------------------</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:29.424953Z</date>
+  <millis>1577530469424</millis>
+  <nanos>953000</nanos>
+  <sequence>2</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>CONFIGURATION:</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:29.439340Z</date>
+  <millis>1577530469439</millis>
+  <nanos>340000</nanos>
+  <sequence>3</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Filepath: ../shared</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:29.440953Z</date>
+  <millis>1577530469440</millis>
+  <nanos>953000</nanos>
+  <sequence>4</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Host path: ~/GitRepo/indexing-open-source-c-cpp-repositories/Docker-conan/shared</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:29.442564Z</date>
+  <millis>1577530469442</millis>
+  <nanos>564000</nanos>
+  <sequence>5</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Container path: /shared</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:29.459106Z</date>
+  <millis>1577530469459</millis>
+  <nanos>106000</nanos>
+  <sequence>6</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>repositories.json is read to: ../shared/repositories.json</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:29.460650Z</date>
+  <millis>1577530469460</millis>
+  <nanos>650000</nanos>
+  <sequence>7</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>results.json is output to: ../shared/results.json</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:29.462067Z</date>
+  <millis>1577530469462</millis>
+  <nanos>67000</nanos>
+  <sequence>8</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Using analysis tool : StatisticsAnalysis</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:29.741219Z</date>
+  <millis>1577530469741</millis>
+  <nanos>219000</nanos>
+  <sequence>9</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>-----------------------------------</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:29.789209Z</date>
+  <millis>1577530469789</millis>
+  <nanos>209000</nanos>
+  <sequence>10</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Running container pipeline at index: 12 for repository with id/owner/name: 47253039/nexusformat/HDF5-External-Filter-Plugins</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:31.446313Z</date>
+  <millis>1577530471446</millis>
+  <nanos>313000</nanos>
+  <sequence>11</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>FINISHED: CLONING</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:31.461465Z</date>
+  <millis>1577530471461</millis>
+  <nanos>465000</nanos>
+  <sequence>12</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>Cloning took 1 seconds - Repository size: 1143</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:31.516487Z</date>
+  <millis>1577530471516</millis>
+  <nanos>487000</nanos>
+  <sequence>13</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>FINISHED: CLONING SUBMODULES</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:31.524212Z</date>
+  <millis>1577530471524</millis>
+  <nanos>212000</nanos>
+  <sequence>14</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>Cloning submodules took 0 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:31.626750Z</date>
+  <millis>1577530471626</millis>
+  <nanos>750000</nanos>
+  <sequence>15</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>FINISHED: RESET WORKING TREE</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:31.628304Z</date>
+  <millis>1577530471628</millis>
+  <nanos>304000</nanos>
+  <sequence>16</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>Resetting working tree took 0 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:34.644834Z</date>
+  <millis>1577530474644</millis>
+  <nanos>834000</nanos>
+  <sequence>17</sequence>
+  <logger>global</logger>
+  <level>SEVERE</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>FAILED: CONAN INSTALL</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:34.646809Z</date>
+  <millis>1577530474646</millis>
+  <nanos>809000</nanos>
+  <sequence>18</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>Installing dependencies took 3 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:34.720087Z</date>
+  <millis>1577530474720</millis>
+  <nanos>87000</nanos>
+  <sequence>19</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>ContainerCoordinator started at: 28-12-2019 10:54:29</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:34.721515Z</date>
+  <millis>1577530474721</millis>
+  <nanos>515000</nanos>
+  <sequence>20</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>ContainerCoordinator terminated at: 28-12-2019 10:54:34</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:34.725030Z</date>
+  <millis>1577530474725</millis>
+  <nanos>30000</nanos>
+  <sequence>21</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Overall execution time in seconds: 5</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:34.734645Z</date>
+  <millis>1577530474734</millis>
+  <nanos>645000</nanos>
+  <sequence>22</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Overall execution time in minutes: 0.08333333333333333</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:34.735990Z</date>
+  <millis>1577530474735</millis>
+  <nanos>990000</nanos>
+  <sequence>23</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Overall execution time in hours: 0.001388888888888889</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:34.736584Z</date>
+  <millis>1577530474736</millis>
+  <nanos>584000</nanos>
+  <sequence>24</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>ContainerCoordinator finished. Shutting down</message>
+</record>
+</log>
+<?xml version="1.0" encoding="US-ASCII" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-12-28T10:54:36.587232Z</date>
+  <millis>1577530476587</millis>
+  <nanos>232000</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>-----------------------------------</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:36.602526Z</date>
+  <millis>1577530476602</millis>
+  <nanos>526000</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>-----------------------------------</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:36.603553Z</date>
+  <millis>1577530476603</millis>
+  <nanos>553000</nanos>
+  <sequence>2</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>CONFIGURATION:</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:36.617877Z</date>
+  <millis>1577530476617</millis>
+  <nanos>877000</nanos>
+  <sequence>3</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Filepath: ../shared</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:36.619533Z</date>
+  <millis>1577530476619</millis>
+  <nanos>533000</nanos>
+  <sequence>4</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Host path: ~/GitRepo/indexing-open-source-c-cpp-repositories/Docker-conan/shared</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:36.621122Z</date>
+  <millis>1577530476621</millis>
+  <nanos>122000</nanos>
+  <sequence>5</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Container path: /shared</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:36.637690Z</date>
+  <millis>1577530476637</millis>
+  <nanos>690000</nanos>
+  <sequence>6</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>repositories.json is read to: ../shared/repositories.json</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:36.639436Z</date>
+  <millis>1577530476639</millis>
+  <nanos>436000</nanos>
+  <sequence>7</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>results.json is output to: ../shared/results.json</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:36.640974Z</date>
+  <millis>1577530476640</millis>
+  <nanos>974000</nanos>
+  <sequence>8</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Using analysis tool : StatisticsAnalysis</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:36.924843Z</date>
+  <millis>1577530476924</millis>
+  <nanos>843000</nanos>
+  <sequence>9</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>-----------------------------------</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:36.972393Z</date>
+  <millis>1577530476972</millis>
+  <nanos>393000</nanos>
+  <sequence>10</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Running container pipeline at index: 13 for repository with id/owner/name: 154707090/panda-lang/pandavm</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:38.065656Z</date>
+  <millis>1577530478065</millis>
+  <nanos>656000</nanos>
+  <sequence>11</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>FINISHED: CLONING</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:38.083769Z</date>
+  <millis>1577530478083</millis>
+  <nanos>769000</nanos>
+  <sequence>12</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>Cloning took 1 seconds - Repository size: 10</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:38.138155Z</date>
+  <millis>1577530478138</millis>
+  <nanos>155000</nanos>
+  <sequence>13</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>FINISHED: CLONING SUBMODULES</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:38.145751Z</date>
+  <millis>1577530478145</millis>
+  <nanos>751000</nanos>
+  <sequence>14</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>Cloning submodules took 0 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:38.181496Z</date>
+  <millis>1577530478181</millis>
+  <nanos>496000</nanos>
+  <sequence>15</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>FINISHED: RESET WORKING TREE</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:38.182858Z</date>
+  <millis>1577530478182</millis>
+  <nanos>858000</nanos>
+  <sequence>16</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>Resetting working tree took 0 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:45.037606Z</date>
+  <millis>1577530485037</millis>
+  <nanos>606000</nanos>
+  <sequence>17</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>FINISHED: CONAN INSTALL</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:45.039256Z</date>
+  <millis>1577530485039</millis>
+  <nanos>256000</nanos>
+  <sequence>18</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>Installing dependencies took 6 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:45.052441Z</date>
+  <millis>1577530485052</millis>
+  <nanos>441000</nanos>
+  <sequence>19</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>FINISHED: FOLDER PREPARATION</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:45.054038Z</date>
+  <millis>1577530485054</millis>
+  <nanos>38000</nanos>
+  <sequence>20</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>Build folder preparation took 0 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:48.032182Z</date>
+  <millis>1577530488032</millis>
+  <nanos>182000</nanos>
+  <sequence>21</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>FINISHED: CMAKE PREPARATION</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:48.033393Z</date>
+  <millis>1577530488033</millis>
+  <nanos>393000</nanos>
+  <sequence>22</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>CMake preparation took 2 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:48.522221Z</date>
+  <millis>1577530488522</millis>
+  <nanos>221000</nanos>
+  <sequence>23</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>FINISHED: CMAKE BUILD</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:48.523717Z</date>
+  <millis>1577530488523</millis>
+  <nanos>717000</nanos>
+  <sequence>24</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>CMake build took 0 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:48.564023Z</date>
+  <millis>1577530488564</millis>
+  <nanos>23000</nanos>
+  <sequence>25</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>gatherBuildTargetsAndExtractLLVMIR</method>
+  <thread>1</thread>
+  <message>Build summary: 0 Executables 0 Libraries 0 Archives</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:48.565241Z</date>
+  <millis>1577530488565</millis>
+  <nanos>241000</nanos>
+  <sequence>26</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>gatherBuildTargetsAndExtractLLVMIR</method>
+  <thread>1</thread>
+  <message>Extracting and disassambling all build targets into LLVM IR took 0 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:48.566269Z</date>
+  <millis>1577530488566</millis>
+  <nanos>269000</nanos>
+  <sequence>27</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>runAnalysis</method>
+  <thread>1</thread>
+  <message>Analysis of all LLVM IR files took 0 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:48.624526Z</date>
+  <millis>1577530488624</millis>
+  <nanos>526000</nanos>
+  <sequence>28</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>ContainerCoordinator started at: 28-12-2019 10:54:36</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:48.625638Z</date>
+  <millis>1577530488625</millis>
+  <nanos>638000</nanos>
+  <sequence>29</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>ContainerCoordinator terminated at: 28-12-2019 10:54:48</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:48.628233Z</date>
+  <millis>1577530488628</millis>
+  <nanos>233000</nanos>
+  <sequence>30</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Overall execution time in seconds: 11</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:48.634320Z</date>
+  <millis>1577530488634</millis>
+  <nanos>320000</nanos>
+  <sequence>31</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Overall execution time in minutes: 0.18333333333333332</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:48.635240Z</date>
+  <millis>1577530488635</millis>
+  <nanos>240000</nanos>
+  <sequence>32</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Overall execution time in hours: 0.0030555555555555557</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:48.635670Z</date>
+  <millis>1577530488635</millis>
+  <nanos>670000</nanos>
+  <sequence>33</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>ContainerCoordinator finished. Shutting down</message>
+</record>
+</log>
+<?xml version="1.0" encoding="US-ASCII" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-12-28T10:54:50.481766Z</date>
+  <millis>1577530490481</millis>
+  <nanos>766000</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>-----------------------------------</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:50.499095Z</date>
+  <millis>1577530490499</millis>
+  <nanos>95000</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>-----------------------------------</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:50.500331Z</date>
+  <millis>1577530490500</millis>
+  <nanos>331000</nanos>
+  <sequence>2</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>CONFIGURATION:</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:50.517920Z</date>
+  <millis>1577530490517</millis>
+  <nanos>920000</nanos>
+  <sequence>3</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Filepath: ../shared</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:50.519733Z</date>
+  <millis>1577530490519</millis>
+  <nanos>733000</nanos>
+  <sequence>4</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Host path: ~/GitRepo/indexing-open-source-c-cpp-repositories/Docker-conan/shared</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:50.521593Z</date>
+  <millis>1577530490521</millis>
+  <nanos>593000</nanos>
+  <sequence>5</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Container path: /shared</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:50.541647Z</date>
+  <millis>1577530490541</millis>
+  <nanos>647000</nanos>
+  <sequence>6</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>repositories.json is read to: ../shared/repositories.json</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:50.543384Z</date>
+  <millis>1577530490543</millis>
+  <nanos>384000</nanos>
+  <sequence>7</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>results.json is output to: ../shared/results.json</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:50.544835Z</date>
+  <millis>1577530490544</millis>
+  <nanos>835000</nanos>
+  <sequence>8</sequence>
+  <logger>global</logger>
+  <level>CONFIG</level>
+  <class>main.MainContainerCoordinator</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Using analysis tool : StatisticsAnalysis</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:50.847186Z</date>
+  <millis>1577530490847</millis>
+  <nanos>186000</nanos>
+  <sequence>9</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>-----------------------------------</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:50.895479Z</date>
+  <millis>1577530490895</millis>
+  <nanos>479000</nanos>
+  <sequence>10</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Running container pipeline at index: 14 for repository with id/owner/name: 48165074/conan-community/conan-bzip2</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:52.081607Z</date>
+  <millis>1577530492081</millis>
+  <nanos>607000</nanos>
+  <sequence>11</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>FINISHED: CLONING</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:52.096795Z</date>
+  <millis>1577530492096</millis>
+  <nanos>795000</nanos>
+  <sequence>12</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>Cloning took 1 seconds - Repository size: 83</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:52.150471Z</date>
+  <millis>1577530492150</millis>
+  <nanos>471000</nanos>
+  <sequence>13</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>FINISHED: CLONING SUBMODULES</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:52.157930Z</date>
+  <millis>1577530492157</millis>
+  <nanos>930000</nanos>
+  <sequence>14</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>Cloning submodules took 0 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:52.196678Z</date>
+  <millis>1577530492196</millis>
+  <nanos>678000</nanos>
+  <sequence>15</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>FINISHED: RESET WORKING TREE</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:52.198231Z</date>
+  <millis>1577530492198</millis>
+  <nanos>231000</nanos>
+  <sequence>16</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>cloneRepository</method>
+  <thread>1</thread>
+  <message>Resetting working tree took 0 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:53.255825Z</date>
+  <millis>1577530493255</millis>
+  <nanos>825000</nanos>
+  <sequence>17</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>FINISHED: CONAN INSTALL</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:53.257967Z</date>
+  <millis>1577530493257</millis>
+  <nanos>967000</nanos>
+  <sequence>18</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>Installing dependencies took 1 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:53.271639Z</date>
+  <millis>1577530493271</millis>
+  <nanos>639000</nanos>
+  <sequence>19</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>FINISHED: FOLDER PREPARATION</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:53.273783Z</date>
+  <millis>1577530493273</millis>
+  <nanos>783000</nanos>
+  <sequence>20</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>Build folder preparation took 0 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:54.618376Z</date>
+  <millis>1577530494618</millis>
+  <nanos>376000</nanos>
+  <sequence>21</sequence>
+  <logger>global</logger>
+  <level>SEVERE</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>FAILED: CMAKE PREPARATION</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:54.619474Z</date>
+  <millis>1577530494619</millis>
+  <nanos>474000</nanos>
+  <sequence>22</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>compile</method>
+  <thread>1</thread>
+  <message>CMake preparation took 1 seconds</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:54.680937Z</date>
+  <millis>1577530494680</millis>
+  <nanos>937000</nanos>
+  <sequence>23</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>ContainerCoordinator started at: 28-12-2019 10:54:50</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:54.682038Z</date>
+  <millis>1577530494682</millis>
+  <nanos>38000</nanos>
+  <sequence>24</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>ContainerCoordinator terminated at: 28-12-2019 10:54:54</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:54.684929Z</date>
+  <millis>1577530494684</millis>
+  <nanos>929000</nanos>
+  <sequence>25</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Overall execution time in seconds: 4</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:54.691007Z</date>
+  <millis>1577530494691</millis>
+  <nanos>7000</nanos>
+  <sequence>26</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Overall execution time in minutes: 0.06666666666666667</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:54.692091Z</date>
+  <millis>1577530494692</millis>
+  <nanos>91000</nanos>
+  <sequence>27</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Overall execution time in hours: 0.0011111111111111111</message>
+</record>
+<record>
+  <date>2019-12-28T10:54:54.692526Z</date>
+  <millis>1577530494692</millis>
+  <nanos>526000</nanos>
+  <sequence>28</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>main.ContainerCoordinator</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>ContainerCoordinator finished. Shutting down</message>
+</record>
+</log>

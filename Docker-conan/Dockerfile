@@ -22,7 +22,7 @@ RUN apt-get -y install clang libboost-all-dev libcurl4 libcurl4-openssl-dev && y
 
 # COPY the Container Program, the config file and the conan profile into the container's file system.
 COPY programs/config.properties $HOME/Program/
-COPY programs/ContainerProgram.jar $HOME/Program/
+COPY programs/ContainerCoordinator.jar $HOME/Program/
 COPY programs/clang root/.conan/profiles/
 
 #Create a directory that will be specified as a shared folder on runtime.
