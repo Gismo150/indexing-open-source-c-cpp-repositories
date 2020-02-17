@@ -51,7 +51,7 @@ $ sudo systemctl start elasticsearch.service
 $ java -jar Crawler.jar
 ```
 
-#### 4. Go to the Program folder and run:
+#### 4. Go to the Program folder and run the [Collection Creator](https://github.com/Gismo150/CreateCollection):
 ```zsh
 $ sudo java -jar CreateCollection.jar
 ```
