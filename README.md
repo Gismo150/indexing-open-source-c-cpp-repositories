@@ -55,7 +55,7 @@ $ java -jar Crawler.jar
 ```zsh
 $ sudo java -jar CreateCollection.jar
 ```
-OR\
+###### OR
 ```zsh
 $ sudo java -jar CreateCollection.jar [NUMBER]
 
