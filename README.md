@@ -13,8 +13,9 @@ Docker
 ## Basic Setup for Debian-based distributions:
 ### Installing Elasticsearch
 #### 1. Download and install the public signing key:
-wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add -
-
+```zsh
+$ wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add -
+```
 #### 2. You may need to install the apt-transport-https package on Debian before proceeding:
 $ sudo apt-get install apt-transport-https
 
@@ -37,7 +38,7 @@ $ docker build -t conan-cmake:clang .
 #### 2. Start the elasticsearch server (By default localhost:9200):
 $ sudo systemctl start elasticsearch.service
 
-#### 3. Go to the Program folder and run the Crawler
+#### 3. Go to the Program folder and run the [Crawler](https://github.com/Gismo150/Crawler)
 $ java -jar Crawler.jar
 
 #### 4. Go to the Program folder and run:
