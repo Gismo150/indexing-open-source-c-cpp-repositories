@@ -13,20 +13,20 @@ Docker
 ## Basic Setup for Debian-based distributions:
 ### Installing Elasticsearch
 #### 1. Download and install the public signing key:
-wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add -\
+wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add -
 
 #### 2. You may need to install the apt-transport-https package on Debian before proceeding:
-$ sudo apt-get install apt-transport-https\
+$ sudo apt-get install apt-transport-https
 
 #### 3. Save the repository definition to /etc/apt/sources.list.d/elastic-7.x.list:
 echo "deb https://artifacts.elastic.co/packages/7.x/apt stable main" | sudo tee -a /etc/apt/sources.list.d/elastic-7.x.list\
 
 #### 4. You can install the Elasticsearch Debian package with:
-$ sudo apt-get update && sudo apt-get install elasticsearch\
+$ sudo apt-get update && sudo apt-get install elasticsearch
 
 ### Installing Docker
 #### 1. You can install the Docker Debian package with:
-$ sudo apt-get install docker-ce docker-ce-cli containerd.io\
+$ sudo apt-get install docker-ce docker-ce-cli containerd.io
 
 ## Start up
 #### 1. Adjust the config.properties file first (paths, crawler settings etc.)
@@ -41,6 +41,6 @@ $ sudo systemctl start elasticsearch.service
 $ java -jar Crawler.jar
 
 #### 4. Go to the Program folder and run:
-$ sudo java -jar CreateCollection.jar
+$ sudo java -jar CreateCollection.jar\
 OR\
 $ sudo java -jar CreateCollection.jar [NUMBER]
