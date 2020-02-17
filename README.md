@@ -9,6 +9,6 @@ Start the elasticsearch server (localhost:9200 default):\
 $ sudo systemctl start elasticsearch.service   
 
 Go to the Program folder and run:\
-$ java -jar CreateCollection.jar\
+$ sudo java -jar CreateCollection.jar\
 OR\
-$ java -jar CreateCollection.jar [NUMBER]
+$ sudo java -jar CreateCollection.jar [NUMBER]
