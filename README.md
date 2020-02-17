@@ -17,31 +17,45 @@ Docker
 $ wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add -
 ```
 #### 2. You may need to install the apt-transport-https package on Debian before proceeding:
+```zsh
 $ sudo apt-get install apt-transport-https
-
+```
 #### 3. Save the repository definition to /etc/apt/sources.list.d/elastic-7.x.list:
-echo "deb https://artifacts.elastic.co/packages/7.x/apt stable main" | sudo tee -a /etc/apt/sources.list.d/elastic-7.x.list\
-
+```zsh
+$ echo "deb https://artifacts.elastic.co/packages/7.x/apt stable main" | sudo tee -a /etc/apt/sources.list.d/elastic-7.x.list\
+```
 #### 4. You can install the Elasticsearch Debian package with:
+```zsh
 $ sudo apt-get update && sudo apt-get install elasticsearch
-
+```
 ### Installing Docker
 #### 1. You can install the Docker Debian package with:
+```zsh
 $ sudo apt-get install docker-ce docker-ce-cli containerd.io
-
+```
 ## Start up
 #### 1. Adjust the config.properties file first (paths, crawler settings etc.)
 
 #### 2. Build the docker image:
+```zsh
 $ docker build -t conan-cmake:clang .
+```
 
 #### 2. Start the elasticsearch server (By default localhost:9200):
+```zsh
 $ sudo systemctl start elasticsearch.service
+```
 
 #### 3. Go to the Program folder and run the [Crawler](https://github.com/Gismo150/Crawler)
+```zsh
 $ java -jar Crawler.jar
+```
 
 #### 4. Go to the Program folder and run:
-$ sudo java -jar CreateCollection.jar\
+```zsh
+$ sudo java -jar CreateCollection.jar
+```
 OR\
+```zsh
 $ sudo java -jar CreateCollection.jar [NUMBER]
+
