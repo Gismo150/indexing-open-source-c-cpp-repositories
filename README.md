@@ -7,41 +7,41 @@ All components of the benchmark system are implemented in Java. It facilitates t
 
 Tests show that more than 40\% of 176 crawled repositories are successfully built by the proposed benchmark system.  Consequently, the benchmark system collected metadata of 176 repositories and code statistics of 616 executables, 32 libraries and 90 archives.
 
-## Required Software:
+## Required Software
 Elasticsearch\
 Docker
-## Basic Setup for Debian-based distributions:
+## Basic Setup for Debian-based distributions
 ### Installing Elasticsearch
-#### 1. Download and install the public signing key:
+#### 1. Download and install the public signing key
 ```zsh
 $ wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add -
 ```
-#### 2. You may need to install the apt-transport-https package on Debian before proceeding:
+#### 2. You may need to install the apt-transport-https package on Debian before proceeding
 ```zsh
 $ sudo apt-get install apt-transport-https
 ```
-#### 3. Save the repository definition to /etc/apt/sources.list.d/elastic-7.x.list:
+#### 3. Save the repository definition to /etc/apt/sources.list.d/elastic-7.x.list
 ```zsh
 $ echo "deb https://artifacts.elastic.co/packages/7.x/apt stable main" | sudo tee -a /etc/apt/sources.list.d/elastic-7.x.list\
 ```
-#### 4. You can install the Elasticsearch Debian package with:
+#### 4. You can install the Elasticsearch Debian package with
 ```zsh
 $ sudo apt-get update && sudo apt-get install elasticsearch
 ```
 ### Installing Docker
-#### 1. You can install the Docker Debian package with:
+#### 1. You can install the Docker Debian package with
 ```zsh
 $ sudo apt-get install docker-ce docker-ce-cli containerd.io
 ```
 ## Start up
 #### 1. Adjust the config.properties file first (paths, crawler settings etc.)
 
-#### 2. Build the docker image:
+#### 2. Build the docker image
 ```zsh
 $ docker build -t conan-cmake:clang .
 ```
 
-#### 2. Start the elasticsearch server (By default localhost:9200):
+#### 2. Start the elasticsearch server (By default localhost:9200)
 ```zsh
 $ sudo systemctl start elasticsearch.service
 ```
