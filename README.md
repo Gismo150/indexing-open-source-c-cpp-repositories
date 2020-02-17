@@ -37,7 +37,7 @@ $ docker build -t conan-cmake:clang .
 #### 2. Start the elasticsearch server (By default localhost:9200):
 $ sudo systemctl start elasticsearch.service
 
-#### 3. Run the Crawler
+#### 3. Go to the Program folder and run the Crawler
 $ java -jar Crawler.jar
 
 #### 4. Go to the Program folder and run:
