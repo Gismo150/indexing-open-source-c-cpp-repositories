@@ -5,7 +5,7 @@ This repository introduces a benchmark system that develops a knowledge database
 
 All components of the benchmark system are implemented in Java. It facilitates the collection of repository metadata and code statistics through static analysis in an automatic manner. All information collected throughout the benchmark system's process, i.e. static analysis results, are stored into a database. These information serve as a starting point for creating current, targeted benchmark suites, and thus helps to evaluate static analysis tools and algorithms. It does so by automatically crawling for suitable open-source repositories published on GitHub. Subsequently, each repository is automatically downloaded, software dependencies are resolved with *Conan* and the source code is compiled with the *CMake* build system. Each successful compilation is followed by the extraction of the repository's *LLVM IR* code and static analysis of it using the static analysis framework *PhASAR*. Finally, all collected data is stored into an *Elasticsearch* database.
 
-Tests show that more than 40\% of 176 crawled repositories are successfully built by the proposed benchmark system.  Consequently, the benchmark system collected metadata of 176 repositories and code statistics of 616 executables, 32 libraries and 90 archives.
+Tests show that more than 40\% of 176 crawled repositories are successfully built by the proposed benchmark system.  Consequently, the benchmark system collected metadata of 176 repositories and code statistics of 616 executables, 32 libraries and 90 archives. (Results from Dec. 2019)
 
 ## Required Software
 Elasticsearch 7.4.0\
