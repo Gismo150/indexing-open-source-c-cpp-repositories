@@ -7,6 +7,9 @@ All components of the benchmark system are implemented in Java. It facilitates t
 
 Tests show that more than 40\% of 176 crawled repositories are successfully built by the proposed benchmark system.  Consequently, the benchmark system collected metadata of 176 repositories and code statistics of 616 executables, 32 libraries and 90 archives. (Results from Dec. 2019)
 
+## Conceptual Overview of the benchmark system
+![Conceptual Overview](SolutionOverview.jpg?raw=true "Conceptual Overview of the benchmark system")
+
 ## Required Software
 Elasticsearch 7.4.0\
 Docker
